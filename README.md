@@ -11,13 +11,13 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
 7. [Credit](#Credit)
 
 ## About
-***
+
 Are you a movie buff? If the answer is "yes", play this quiz game to prove your status as a true movie buff! 
 
 Game rules: Each game contains 10 quetions, each question comes with multiple-choice answers, score 10 points for each correct answer. Answer each question within 60s, time-out is considered as a wrong answer. Highest score wins! Good luck!
 
 ## Users Experience (UX)
-***
+
 ### **Business Goal**
 
 
@@ -43,15 +43,15 @@ see details in [Features](#Features) section
 ### **Uers Story**
 * As a movie buff, I would like to test my knowledge about movies.
 ## Features
-***
+
 ### Existing Features
 ### Features Left to Implement
 ## Testing
-***
+
 ## Deployment 
-***
+
 ## Credits
-***
+
 ### Content
 ### Media
 ### Acknowledgements
