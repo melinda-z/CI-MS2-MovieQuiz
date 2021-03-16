@@ -30,7 +30,11 @@ see details in [Features](#Features) section
 
 #### *Structure Plane*
 
-[wireframe](assets/images/MS2-MovieQuiz-wireframe.pdf)
+[Desktop wireframe](assets/images/MS2-MovieQuiz-desktop.pdf)
+
+[Tablet wireframe](assets/images/MS2-MovieQuiz-Tablet.pdf)
+
+[Mobile wireframe](assets/images/MS2-MovieQuiz-Mobile.pdf)
 #### *Skeleton Plane*
 
 
