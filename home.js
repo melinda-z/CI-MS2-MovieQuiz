@@ -20,3 +20,4 @@ const closeModal = document.getElementById('close-modal');
      } 
 }
 window.addEventListener('click', anyWhereClose);
+
