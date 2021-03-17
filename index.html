@@ -12,10 +12,21 @@
     <div class="container">
         <div class="flex-center flex-column">
             <h1 id="head-line">
-                Are you really a movie buff? Check it out with this quiz!
+                The Movie Quiz
             </h1>
-            <img id="home-image" src="assets/images/chicago-cinema.jpg" alt="chicago-cinema">
-            <button class="btn" id="rules">Game Rules</button>
+            <!-- The Modal trigger button -->
+            <button class="btn" id="rules-button">Game Rules</button>
+            <!-- The Modal -->
+            <div id="rules-modal" class="modal">
+            <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="close-modal" class="close">&times;</span>
+                    <p>Game rules: Each game contains 10 quetions, each question comes with multiple-choice answers, score 10 points for each correct answer. Answer each question within 60s, time-out is considered as a wrong answer. Highest score wins! Good luck!</p>
+                </div>
+            </div>
+            <!-- Highest Score button -->
+            <a href="/end.html" class="btn">Highest Score</a>
+            <!-- Start Game button -->
             <a class="btn" id="start" href="/game.html">Start Game</a>
         </div>
     </div>

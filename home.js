@@ -1,12 +1,22 @@
-const startButton = document.getElementById('start');
+// Game Rules button - Modal
 
+const modal = document.getElementById('rules-modal');
+const btn = document.getElementById('rules-button');
+const closeModal = document.getElementById('close-modal');
 
-function startGame () {
-    showQuestion();
+ function openModal() {
+    modal.style.display ='block';
+ }
+ btn.addEventListener('click', openModal);
+
+ function close() {
+     modal.style.display = 'none';
+ }
+ closeModal.addEventListener('click', close);
+
+ function anyWhereClose(event) {
+     if (event.target == modal) {
+        modal.style.display ='none';
+     } 
 }
-
-startButton.addEventListener('click', startGame);
-
-function showQuestion() {
-    
-}
+window.addEventListener('click', anyWhereClose);
