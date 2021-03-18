@@ -14,6 +14,8 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
 
 ## About
 
+This movie quiz is the 2nd Milestone Project required for completing Code Institue Interactive front-End Development Module,
+
 Are you a movie buff? If the answer is "yes", play this quiz game to prove your status as a true movie buff!
 
 Game rules: Each game contains 10 quetions, each question comes with multiple-choice answers, score 10 points for each correct answer. Answer each question within 60s, time-out is considered as a wrong answer. Highest score wins! Good luck!
@@ -22,13 +24,13 @@ Game rules: Each game contains 10 quetions, each question comes with multiple-ch
 
 ### **Business Goal**
 
-#### _Strategy Plane_
+### Strategy Plane
 
-#### _Scope Plane_
+### Scope Plane
 
 see details in [Features](#Features) section
 
-#### _Structure Plane_
+### Structure Plane
 
 [Desktop wireframe](assets/images/MS2-MovieQuiz-desktop.pdf)
 
@@ -36,9 +38,9 @@ see details in [Features](#Features) section
 
 [Mobile wireframe](assets/images/MS2-MovieQuiz-Mobile.pdf)
 
-#### _Skeleton Plane_
+### Skeleton Plane
 
-#### _Surface Plane_
+### Surface Plane
 
 ### **Uers Story**
 
