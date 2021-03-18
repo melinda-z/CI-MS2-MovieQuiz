@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: url("assets/images/cinema.jpg");
+  background: url("../images/cinema.jpg");
   background-position: center;
   background-size: cover;
 }
