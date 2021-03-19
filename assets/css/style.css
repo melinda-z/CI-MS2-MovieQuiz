@@ -14,11 +14,6 @@ body {
   background-size: cover;
 }
 
-#home-image {
-  width: 60%;
-  height: 40%;
-}
-
 .container {
   width: 100vw;
   height: 100vh;
@@ -28,15 +23,18 @@ body {
   max-width: 80rem;
   margin: 0 auto;
 }
+
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .flex-column {
   display: flex;
   flex-direction: column;
 }
+
 .justify-center {
   display: flex;
   justify-content: center;
@@ -47,7 +45,8 @@ h1 {
   font-family: "Oswald", sans-serif;
   color: #ffd60a;
 }
-/* Home page button */
+
+/* Home page buttons */
 .btn {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 20px;
@@ -62,7 +61,14 @@ h1 {
   text-align: center;
 }
 
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px #ffba08;
+  transition: 150ms;
+  transform: scale(1.03);
+}
 /* Modal background */
+/* idea from W3School */
 .modal {
   display: none;
   position: fixed;
