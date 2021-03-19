@@ -8,12 +8,26 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/game.css" />
     <title>Game Page</title>
   </head>
   <body>
     <div class="container">
       <div id="game" class="justify-center flex-column">
+        <!-- quiz hud section -->
+        <div class="hud">
+          <div class="hud-item">
+            <p class="hud-prefix" id="progress-text">question 1/10</p>
+            <div id="progress-bar">
+              <div class="progress-bar-full"></div>
+            </div>
+          </div>
+          <div class="hud-item">
+            <p class="hud-prefix">score</p>
+            <h1 id="score">0</h1>
+          </div>
+        </div>
         <!-- Question and Choices section -->
         <h2 id="question">what is the answer to this question?</h2>
         <div class="choice-container">
