@@ -32,3 +32,10 @@ body {
   padding: 1rem;
   width: 100%;
 }
+
+.correct {
+  background-color: #3edf0ddc;
+}
+.incorrect {
+  background-color: #d00000;
+}

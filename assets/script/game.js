@@ -69,21 +69,34 @@ displayQuestion = () => {
 
 validateAnswer = (event) => {
   userAnswer = event.target.innerHTML;
-  console.log(userAnswer);
+  selectedAnswer = event.target;
   // checking if the user answer is matching with the correct answer
   if (userAnswer.localeCompare(currentQuestion["answer"]) === 0) {
     currentScore = currentScore + CORRECT_BONUS;
     score.innerHTML = currentScore;
-    // remove the question has been used
-    availableQuestions.splice(randomIndex, 1);
 
-    acceptingAnswers = true;
-    displayQuestion();
+    // add correct class to the selected answer
+    selectedAnswer.parentElement.classList.add("correct");
+    // remove the correct class after 1 second
+    setTimeout(() => {
+      selectedAnswer.parentElement.classList.remove("correct");
+      // remove the question has been used
+      availableQuestions.splice(randomIndex, 1);
+      displayQuestion();
+    }, 1000);
   } else {
-    displayQuestion();
+    // add incorrect class to the selected answer
+    selectedAnswer.parentElement.classList.add("incorrect");
+    // remove the incorrect class after 1 second
+    setTimeout(() => {
+      selectedAnswer.parentElement.classList.remove("incorrect");
+      availableQuestions.splice(randomIndex, 1);
+      console.log(availableQuestions);
+      displayQuestion();
+    }, 1000);
   }
 };
-
+// add event listener to the choices
 for (var index = 0; index < choices.length; index++) {
   choices[index].addEventListener("click", validateAnswer);
 }
