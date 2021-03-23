@@ -13,6 +13,13 @@ body {
   min-width: 50vw;
 }
 
+.choice-container:hover {
+  cursor: pointer;
+  border-color: #faa307;
+  box-shadow: 0 0.4rem 0.4rem 0 #faa307;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
 .choice-prefix {
   background-color: #ffd60a;
   color: #d00000;
@@ -23,4 +30,5 @@ body {
 
 .choice-text {
   padding: 1rem;
+  width: 100%;
 }

@@ -1,56 +1,90 @@
-questions = [
+let questions = [
   {
-    text: "Which planet skywalker is from1 ?",
-    answer: "Tatooine1",
-    choice2: "Mars1",
-    choice3: "Saturn1",
-    choice4: "Hoth1",
+    question: "Who voices Woody in Toy Story?",
+    choice1: "Nicolas Cage",
+    choice2: "Richard Harris",
+    choice3: "Tom Cruise",
+    choice4: "Tom Hanks",
+    answer: "Tom Hanks",
   },
   {
-    text: "Which planet skywalker is from2?",
-    answer: "Tatooine2",
-    choice2: "Mars2",
-    choice3: "Saturn2",
-    choice4: "Hoth2",
+    question:
+      "Including this year's release No Time To Die, how many official James Bond films are there?",
+    choice1: "10",
+    choice2: "25",
+    choice3: "19",
+    choice4: "21",
+    answer: "25",
   },
   {
-    text: "Which planet skywalker is from3 ?",
-    answer: "Tatooine3",
-    choice2: "Mars3",
-    choice3: "Saturn3",
-    choice4: "Hoth3",
-  },
-  {
-    text: "Which planet skywalker is from4 ?",
-    answer: "Tatooine4",
-    choice2: "Mars4",
-    choice3: "Satur4",
-    choice4: "Hoth4",
-  },
-  {
-    text: "Which planet skywalker is from5 ?",
-    answer: "Tatooine5",
-    choice2: "Mars5",
-    choice3: "Saturn5",
-    choice4: "Hoth5",
+    question: "When was the first Star Wars film released?",
+    choice1: "1977",
+    choice2: "1981",
+    choice3: "1980",
+    choice4: "1983",
+    answer: "1977",
   },
 ];
-currentQuestion = {};
-currentScore = 0;
 
-function getRandomIndex() {
-  min = Math.ceil(0);
-  max = Math.floor(questions.length - 1);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+// CONSTANTS
+const question = document.getElementById("question");
+const choice1 = document.getElementById("choice-1");
+const choice2 = document.getElementById("choice-2");
+const choice3 = document.getElementById("choice-3");
+const choice4 = document.getElementById("choice-4");
+const choices = document.getElementsByClassName("choice-text");
+const score = document.getElementById("score");
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 3;
+
+let currentQuestion = {};
+let currentScore = 0;
+let availableQuestions = [];
+let questionCounter = 0;
+
+startGame = () => {
+  questionCounter = 0;
+  currentscore = 0;
+  //   spread operator expands the array into individual elements
+  availableQuestions = [...questions];
+  displayQuestion();
+};
+
+displayQuestion = () => {
+  if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    //go to the end page
+    return window.location.assign("/end.html");
+  }
+  questionCounter++;
+  //  get a random number between 1 and the max question number
+  randomIndex = Math.floor(Math.random() * availableQuestions.length);
+  displayingQuestion = questions[randomIndex];
+  question.innerHTML = displayingQuestion["question"];
+  choice1.innerHTML = displayingQuestion["choice1"];
+  choice2.innerHTML = displayingQuestion["choice2"];
+  choice3.innerHTML = displayingQuestion["choice3"];
+  choice4.innerHTML = displayingQuestion["choice4"];
+  currentQuestion = displayingQuestion;
+};
+
+validateAnswer = (event) => {
+  userAnswer = event.target.innerHTML;
+  console.log(userAnswer);
+  // checking if the user answer is matching with the correct answer
+  if (userAnswer.localeCompare(currentQuestion["answer"]) === 0) {
+    currentScore = currentScore + CORRECT_BONUS;
+    score.innerHTML = currentScore;
+    // remove the question has been used
+    availableQuestions.splice(randomIndex, 1);
+    acceptingAnswers = true;
+    displayQuestion();
+  } else {
+    displayQuestion();
+  }
+};
+
+for (var index = 0; index < choices.length; index++) {
+  choices[index].addEventListener("click", validateAnswer);
 }
 
-function showQuestion() {
-  question = questions[getRandomIndex()];
-  document.getElementById("question").innerHTML = question["text"];
-  document.getElementById("answer").innerHTML = question["answer"];
-  document.getElementById("choice2").innerHTML = question["choice2"];
-  document.getElementById("choice3").innerHTML = question["choice3"];
-  document.getElementById("choice4").innerHTML = question["choice4"];
-  currentQuestion = question;
-}
-showQuestion();
+startGame();
