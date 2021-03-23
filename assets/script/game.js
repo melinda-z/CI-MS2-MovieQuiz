@@ -76,6 +76,7 @@ validateAnswer = (event) => {
     score.innerHTML = currentScore;
     // remove the question has been used
     availableQuestions.splice(randomIndex, 1);
+
     acceptingAnswers = true;
     displayQuestion();
   } else {
