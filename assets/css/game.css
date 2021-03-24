@@ -5,6 +5,13 @@ body {
   color: #ffd60a;
 }
 
+/* QEUSTION */
+
+#question {
+  padding: 2rem 2rem 2rem 0;
+}
+/* ChOICES */
+
 .choice-container {
   display: flex;
   border-radius: 5px;
@@ -23,13 +30,12 @@ body {
 .choice-prefix {
   background-color: #ffd60a;
   color: #d00000;
-  padding: 1.5rem;
   margin: 0;
-  font-size: 1.5rem;
+  padding: 1rem;
 }
 
 .choice-text {
-  padding: 1rem;
+  padding-left: 1rem;
   width: 100%;
 }
 
@@ -45,6 +51,20 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.hud-prefix {
-  text-align: center;
+
+/* PROGRESS BAR */
+
+#progress-bar {
+  border: 1px solid #ffd60a;
+  border-radius: 10px;
+  height: 1.3rem;
+  width: 10rem;
+  margin-top: 1.5rem;
+}
+
+#progress-bar-full {
+  background-color: #ffd60a;
+  border-radius: 10px;
+  height: 1.2rem;
+  width: 0%;
 }
