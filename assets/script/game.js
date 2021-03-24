@@ -50,7 +50,6 @@ startGame = () => {
   currentscore = 0;
   //   spread operator expands the array into individual elements
   availableQuestions = [...questions];
-
   displayQuestion();
 };
 
@@ -60,8 +59,7 @@ displayQuestion = () => {
     return window.location.assign("/end.html");
   }
   questionCounter++;
-  console.log(questionCounter);
-  questionCounterText.innerHTML = `Question${questionCounter}/${MAX_QUESTIONS}`;
+  questionCounterText.innerHTML = `Question ${questionCounter}/${MAX_QUESTIONS}`;
   // update the progress bar
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
   //  get a random number between 1 and the max question number
@@ -89,6 +87,7 @@ validateAnswer = (event) => {
 
     // add correct class to the selected answer
     selectedAnswer.parentElement.classList.add("correct");
+    acceptingAnswers = false;
     // remove the correct class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("correct");
@@ -97,6 +96,7 @@ validateAnswer = (event) => {
   } else {
     // add incorrect class to the selected answer
     selectedAnswer.parentElement.classList.add("incorrect");
+    acceptingAnswers = false;
     // remove the incorrect class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("incorrect");
@@ -104,6 +104,7 @@ validateAnswer = (event) => {
     }, 1000);
   }
 };
+
 // add event listener to the choices
 for (var index = 0; index < choices.length; index++) {
   choices[index].addEventListener("click", validateAnswer);

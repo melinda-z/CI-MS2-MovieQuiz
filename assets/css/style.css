@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 /* Utilities */
+
 * {
   box-sizing: border-box;
 }
@@ -22,6 +23,7 @@ body {
   align-items: center;
   max-width: 80rem;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .flex-center {
@@ -67,8 +69,7 @@ h1 {
   transition: 150ms;
   transform: scale(1.03);
 }
-/* Modal background */
-/* idea from W3School */
+/* Modal background */ /* idea from W3School */
 .modal {
   display: none;
   position: fixed;
@@ -78,8 +79,6 @@ h1 {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Modal Content/Box */
@@ -106,7 +105,4 @@ h1 {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
-iframe {
-  border: none;
 }
