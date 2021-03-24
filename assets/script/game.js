@@ -50,6 +50,7 @@ startGame = () => {
   currentscore = 0;
   //   spread operator expands the array into individual elements
   availableQuestions = [...questions];
+
   displayQuestion();
 };
 
@@ -65,17 +66,16 @@ displayQuestion = () => {
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
   //  get a random number between 1 and the max question number
   const randomIndex = Math.floor(Math.random() * availableQuestions.length);
-  console.log(randomIndex);
-  displayingQuestion = questions[randomIndex];
+  displayingQuestion = availableQuestions[randomIndex];
+
   question.innerHTML = displayingQuestion["question"];
   choice1.innerHTML = displayingQuestion["choice1"];
   choice2.innerHTML = displayingQuestion["choice2"];
   choice3.innerHTML = displayingQuestion["choice3"];
   choice4.innerHTML = displayingQuestion["choice4"];
   currentQuestion = displayingQuestion;
-  // remove the question has been used
+  // remove used question
   availableQuestions.splice(randomIndex, 1);
-  console.log(availableQuestions);
   acceptingAnswers = true;
 };
 
@@ -100,7 +100,6 @@ validateAnswer = (event) => {
     // remove the incorrect class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("incorrect");
-      console.log(availableQuestions);
       displayQuestion();
     }, 1000);
   }
