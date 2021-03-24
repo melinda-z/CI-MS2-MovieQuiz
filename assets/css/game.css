@@ -51,6 +51,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+#score {
+  font-size: 2rem;
+}
 
 /* PROGRESS BAR */
 
@@ -59,7 +62,7 @@ body {
   border-radius: 10px;
   height: 1.3rem;
   width: 10rem;
-  margin-top: 1.5rem;
+  margin-top: 2.2rem;
 }
 
 #progress-bar-full {
