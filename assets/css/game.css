@@ -39,3 +39,12 @@ body {
 .incorrect {
   background-color: #d00000;
 }
+/* HUD */
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+.hud-prefix {
+  text-align: center;
+}

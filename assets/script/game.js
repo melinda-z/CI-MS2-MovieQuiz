@@ -34,6 +34,7 @@ const choice3 = document.getElementById("choice-3");
 const choice4 = document.getElementById("choice-4");
 const choices = document.getElementsByClassName("choice-text");
 const score = document.getElementById("score");
+const questionCounterText = document.getElementById("questionCounter-text");
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
 
@@ -57,6 +58,8 @@ displayQuestion = () => {
     return window.location.assign("/end.html");
   }
   questionCounter++;
+  console.log(questionCounter);
+  questionCounterText.innerHTML = `${questionCounter}/${MAX_QUESTIONS}`;
   //  get a random number between 1 and the max question number
   const randomIndex = Math.floor(Math.random() * availableQuestions.length);
   console.log(randomIndex);
