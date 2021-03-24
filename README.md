@@ -14,11 +14,11 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
 
 ## About
 
-This movie quiz is the 2nd Milestone Project required for completing Code Institue Interactive front-End Development Module,
+Who doesn't like a good old quiz?! Quiz is a fun way to spend your time when you are bored, you are not only entertained but also gained knowledge along the way!
 
-Are you a movie buff? If the answer is "yes", play this quiz game to prove your status as a true movie buff!
+Do you think you love watching movie and have watched a lot of movies in the past, that you consider yourself as a movie buff? Take a few minutes complete the quiz, you will find out if that is true!
 
-Game rules: Each game contains 10 quetions, each question comes with multiple-choice answers, score 10 points for each correct answer. Answer each question within 60s, time-out is considered as a wrong answer. Highest score wins! Good luck!
+This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of, it's made of 1000 questions, each game has 10 questions, each correct question gains 10 points, so you can keep playing and aim for that 100 points each time! Have fun!
 
 ## Users Experience (UX)
 

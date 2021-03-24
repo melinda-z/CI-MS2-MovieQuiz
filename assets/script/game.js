@@ -41,6 +41,7 @@ let currentQuestion = {};
 let currentScore = 0;
 let availableQuestions = [];
 let questionCounter = 0;
+let acceptingAnswers = false;
 
 startGame = () => {
   questionCounter = 0;
@@ -57,7 +58,8 @@ displayQuestion = () => {
   }
   questionCounter++;
   //  get a random number between 1 and the max question number
-  randomIndex = Math.floor(Math.random() * availableQuestions.length);
+  const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+  console.log(randomIndex);
   displayingQuestion = questions[randomIndex];
   question.innerHTML = displayingQuestion["question"];
   choice1.innerHTML = displayingQuestion["choice1"];
@@ -65,6 +67,10 @@ displayQuestion = () => {
   choice3.innerHTML = displayingQuestion["choice3"];
   choice4.innerHTML = displayingQuestion["choice4"];
   currentQuestion = displayingQuestion;
+  // remove the question has been used
+  availableQuestions.splice(randomIndex, 1);
+  console.log(availableQuestions);
+  acceptingAnswers = true;
 };
 
 validateAnswer = (event) => {
@@ -80,8 +86,6 @@ validateAnswer = (event) => {
     // remove the correct class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("correct");
-      // remove the question has been used
-      availableQuestions.splice(randomIndex, 1);
       displayQuestion();
     }, 1000);
   } else {
@@ -90,7 +94,6 @@ validateAnswer = (event) => {
     // remove the incorrect class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("incorrect");
-      availableQuestions.splice(randomIndex, 1);
       console.log(availableQuestions);
       displayQuestion();
     }, 1000);
