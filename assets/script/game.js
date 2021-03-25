@@ -39,12 +39,14 @@ const progressBarFull = document.getElementById("progress-bar-full");
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
 
+// LET
 let currentQuestion = {};
 let currentScore = 0;
 let availableQuestions = [];
 let questionCounter = 0;
 let acceptingAnswers = false;
 
+// FUNCTIONS
 startGame = () => {
   questionCounter = 0;
   currentscore = 0;
@@ -107,7 +109,7 @@ validateAnswer = (event) => {
   }
 };
 
-// add event listener to the choices
+// EVENTS
 for (var index = 0; index < choices.length; index++) {
   choices[index].addEventListener("click", validateAnswer);
 }

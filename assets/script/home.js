@@ -1,22 +1,27 @@
 // Game Rules button - Modal
 
+// CONSTANTS
 const modal = document.getElementById("rules-modal");
 const btn = document.getElementById("rules-button");
 const closeModal = document.getElementById("close-modal");
 
+// FUNCTIONS
+// open the modal when the user clicks on the button
 openModal = () => {
   modal.style.display = "block";
 };
-btn.addEventListener("click", openModal);
-
+// close the modal when the user clicks on the <span> (X)
 close = () => {
   modal.style.display = "none";
 };
-closeModal.addEventListener("click", close);
-
+// close the modal when the user clicks anywhere outside of the modal
 anyWhereClose = (event) => {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 };
+
+// EVENTS
+btn.addEventListener("click", openModal);
+closeModal.addEventListener("click", close);
 window.addEventListener("click", anyWhereClose);
