@@ -2,3 +2,20 @@ body {
   background-image: unset;
   background-color: #6a040f;
 }
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#username {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  width: 78%;
+  background-color: lightgoldenrodyellow;
+  margin-bottom: 1.5rem;
+}
+#username::placeholder {
+  text-align: center;
+}
