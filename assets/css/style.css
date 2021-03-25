@@ -69,6 +69,13 @@ h1 {
   transition: 150ms;
   transform: scale(1.03);
 }
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
 /* Modal background */ /* idea from W3School */
 .modal {
   display: none;
