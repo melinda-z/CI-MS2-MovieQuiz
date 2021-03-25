@@ -11,9 +11,10 @@ form {
 #username {
   font-size: 1rem;
   padding: 0.5rem;
+  border: 1px solid #ffd60a;
   border-radius: 20px;
   width: 78%;
-  background-color: lightgoldenrodyellow;
+  background-color: lightgray;
   margin-bottom: 1.5rem;
 }
 #username::placeholder {

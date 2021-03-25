@@ -33,7 +33,7 @@ const choice2 = document.getElementById("choice-2");
 const choice3 = document.getElementById("choice-3");
 const choice4 = document.getElementById("choice-4");
 const choices = document.getElementsByClassName("choice-text");
-const score = document.getElementById("score");
+const scoreText = document.getElementById("score");
 const questionCounterText = document.getElementById("questionCounter-text");
 const progressBarFull = document.getElementById("progress-bar-full");
 const CORRECT_BONUS = 10;
@@ -55,6 +55,8 @@ startGame = () => {
 
 displayQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+    // save the score in local storage
+    localStorage.setItem("mostRecentScore", currentScore);
     //go to the end page
     return window.location.assign("/end.html");
   }
@@ -83,7 +85,7 @@ validateAnswer = (event) => {
   // checking if the user answer is matching with the correct answer
   if (userAnswer.localeCompare(currentQuestion["answer"]) === 0) {
     currentScore = currentScore + CORRECT_BONUS;
-    score.innerHTML = currentScore;
+    scoreText.innerHTML = currentScore;
 
     // add correct class to the selected answer
     selectedAnswer.parentElement.classList.add("correct");
