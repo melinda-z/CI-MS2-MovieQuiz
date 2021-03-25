@@ -113,5 +113,5 @@ validateAnswer = (event) => {
 for (var index = 0; index < choices.length; index++) {
   choices[index].addEventListener("click", validateAnswer);
 }
-
+// call the function
 startGame();
