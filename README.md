@@ -22,15 +22,23 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ## Users Experience (UX)
 
-### **Business Goal**
+#### Project Goals
+
+The primary goals of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure the knowledge in films.
 
 ### Strategy Plane
 
+---
+
 ### Scope Plane
+
+---
 
 see details in [Features](#Features) section
 
 ### Structure Plane
+
+---
 
 [Desktop wireframe](assets/images/MS2-MovieQuiz-desktop.pdf)
 
@@ -40,9 +48,15 @@ see details in [Features](#Features) section
 
 ### Skeleton Plane
 
+---
+
 ### Surface Plane
 
-### **Uers Story**
+---
+
+#### Target Audience
+
+#### Uers Story
 
 - As a movie lover, I want to find movie related activities, so that it broads up to my entertainments options.
 

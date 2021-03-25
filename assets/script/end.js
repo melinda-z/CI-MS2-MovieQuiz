@@ -9,12 +9,14 @@ finalScore.innerText = mostRecentScore;
 
 // FUNCTIONS
 allowUserSave = () => {
+  // enable user input if there is a value
   saveHighScoreButton.disabled = !username.value;
 };
 
 saveHighScore = (event) => {
   event.preventDefault();
 };
+
 // EVENTS
 saveHighScoreButton.addEventListener("click", saveHighScore);
 userName.addEventListener("keyup", allowUserSave);
