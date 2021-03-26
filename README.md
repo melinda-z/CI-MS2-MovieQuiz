@@ -1,8 +1,8 @@
-# CI-MS2-MovieQuiz
+# **CI-MS2-MovieQuiz**
 
 Interactive Front-End Development Project using HTML, CSS and Javascript
 
-## Table of Contents
+## **Table of Contents**
 
 1. [About](#About)
 2. [Users Experience(UX)](<#Users-Experience(UX)>)
@@ -12,7 +12,7 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
 6. [Deployment](#Deployment)
 7. [Credit](#Credit)
 
-## About
+## **About**
 
 Who doesn't like a good old quiz?! Quiz is a fun way to spend your time when you are bored, you are not only entertained but also gained knowledge along the way!
 
@@ -20,43 +20,31 @@ Do you think you love watching movie and have watched a lot of movies in the pas
 
 This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of, it's made of 1000 questions, each game has 10 questions, each correct question gains 10 points, so you can keep playing and aim for that 100 points each time! Have fun!
 
-## Users Experience (UX)
+## **Users Experience (UX)**
 
-#### Project Goals
-
-The primary goals of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure the knowledge in films.
-
-### Strategy Plane
+### **Strategy Plane**
 
 ---
 
-### Scope Plane
+#### **Project Goals**
 
----
+The primary goal of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure the knowledge in films.
 
-see details in [Features](#Features) section
+The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
 
-### Structure Plane
+#### **Target Audience**
 
----
+- Considering the format of the quiz for this project, as there won't be pictures displayed in the question, our target audience will be over 16 year old.
 
-[Desktop wireframe](assets/images/MS2-MovieQuiz-desktop.pdf)
+- In today's world, everything is international, and that includes the film industry, most of the popular movies are known by majority people of the wrold, considering that, our target audience's location is global.
 
-[Tablet wireframe](assets/images/MS2-MovieQuiz-Tablet.pdf)
+- As there's no evidence shows that man loves watching moive more than woman or vice versa (even though I hear a lot from my female friends that their men watches the same movie over and over!), our target audience will be both genders.
 
-[Mobile wireframe](assets/images/MS2-MovieQuiz-Mobile.pdf)
+\_ Someone who is looking for chanlleging activities to do in their free time.
 
-### Skeleton Plane
+\_ Someone who is
 
----
-
-### Surface Plane
-
----
-
-#### Target Audience
-
-#### Uers Story
+#### **Uers Story**
 
 - As a movie lover, I want to find movie related activities, so that it broads up to my entertainments options.
 
@@ -74,20 +62,44 @@ see details in [Features](#Features) section
 
 - As a mobile user, I want an application is molibe friendly, so that I can use it on my mobile.
 
-## Features
+### **Scope Plane**
 
-### Existing Features
+---
 
-### Features Left to Implement
+see details in [Features](#Features) section
 
-## Testing
+### **Structure Plane**
 
-## Deployment
+---
 
-## Credits
+[Desktop wireframe](assets/images/MS2-MovieQuiz-desktop.pdf)
 
-### Content
+[Tablet wireframe](assets/images/MS2-MovieQuiz-Tablet.pdf)
 
-### Media
+[Mobile wireframe](assets/images/MS2-MovieQuiz-Mobile.pdf)
 
-### Acknowledgements
+### **Skeleton Plane**
+
+---
+
+### **Surface Plane**
+
+---
+
+## **Features**
+
+### **Existing Features**
+
+### **Features Left to Implement**
+
+## **Testing**
+
+## **Deployment**
+
+## **Credits**
+
+### **Content**
+
+### **Media**
+
+### **Acknowledgements**
