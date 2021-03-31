@@ -4,13 +4,22 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
 
 ## **Table of Contents**
 
-1. [About](#About)
-2. [Users Experience(UX)](<#Users-Experience(UX)>)
-3. [Features](#Features)
-4. [Technologies-Used](#Technologies-Used)
-5. [Testing](#Testing)
-6. [Deployment](#Deployment)
-7. [Credit](#Credit)
+- [About](#About)
+- [Users Experience(UX)](<#users-experience(ux)>)
+  - [Project Goals](#project-goals)
+  - [Target Audience](#target-audience)
+  - [User Story](#user-story)
+  - [Wireframe](#wireframe)
+- [Features](#Features)
+  - [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies-Used](#Technologies-Used)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [Credit](#Credit)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 ## **About**
 
@@ -22,17 +31,13 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ## **Users Experience (UX)**
 
-### **Strategy Plane**
+### **Project Goals**
 
----
+- The primary goal of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure the knowledge in films.
 
-#### **Project Goals**
+- The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
 
-The primary goal of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure the knowledge in films.
-
-The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
-
-#### **Target Audience**
+### **Target Audience**
 
 - Considering the format of the quiz for this project, as there won't be pictures displayed in the question, our target audience will be over 16 year old.
 
@@ -40,11 +45,9 @@ The secondary goal is to help the user get their thinking mind on. According to 
 
 - As there's no evidence shows that man loves watching moive more than woman or vice versa (even though I hear a lot from my female friends that their men watches the same movie over and over!), our target audience will be both genders.
 
-\_ Someone who is looking for chanlleging activities to do in their free time.
+* The best way to promote our quiz game is through online advertisements and social media shares.
 
-\_ Someone who is
-
-#### **Uers Story**
+### **Uers Story**
 
 - As a movie lover, I want to find movie related activities, so that it broads up to my entertainments options.
 
@@ -62,15 +65,7 @@ The secondary goal is to help the user get their thinking mind on. According to 
 
 - As a mobile user, I want an application is molibe friendly, so that I can use it on my mobile.
 
-### **Scope Plane**
-
----
-
-see details in [Features](#Features) section
-
-### **Structure Plane**
-
----
+### **Wireframes**
 
 [Desktop wireframe](assets/images/MS2-MovieQuiz-desktop.pdf)
 
@@ -78,19 +73,53 @@ see details in [Features](#Features) section
 
 [Mobile wireframe](assets/images/MS2-MovieQuiz-Mobile.pdf)
 
-### **Skeleton Plane**
-
----
-
-### **Surface Plane**
-
----
-
 ## **Features**
 
 ### **Existing Features**
 
+- Homepage navigation - consists three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
+
+* Music on and off switch - which allows the users to switch on the music if they would like to.
+
+* Progress text - shows how many questiones the user have finished on and how many questions left in the game.
+
+* Progress bar - indicates the percentage of the questions have been done out the game at this particular moment.
+
+* Score updates - tells the user how many points the have gain so far in the game.
+
+* Display question section - allow the users to see the displayed question and participate.
+
+* Multiple-choice section - gives the users four choices they can choose from.
+
+* Right(green) or Wrong answer(red) - indicate the users if they have selected the right or wrong answer.
+
+* High Score page navigation - consist with three main buttons which allows the users to save their name and score, play again or go back to the homepage.
+
+* High Score indication bar - tells the users how many points in total they have gained.
+
+* Username Input field - gives the users the options to enter their name and save their score in the local storage.
+
+* Congratulations Animation - congrates the users for their score and enhance users experience.
+
 ### **Features Left to Implement**
+
+- Displaying relative images in each questions to enhance users visual experience.
+
+## **Technologies Used**
+
+- HTML5
+
+  - The language used to give the site its main structure and all necessary features.
+
+- CSS3
+
+  - The language used to give the application its visual effects including the font, color and layout etc.
+
+- Javascript
+
+  - The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+
+-
 
 ## **Testing**
 
