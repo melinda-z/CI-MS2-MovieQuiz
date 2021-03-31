@@ -12,7 +12,7 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
   - [Wireframe](#wireframe)
 - [Features](#Features)
   - [Existing Features](#existing-features)
-  * [Features Left to Implement](#features-left-to-implement)
+  - [Features Left to Implement](#features-left-to-implement)
 - [Technologies-Used](#Technologies-Used)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
@@ -45,7 +45,7 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - As there's no evidence shows that man loves watching moive more than woman or vice versa (even though I hear a lot from my female friends that their men watches the same movie over and over!), our target audience will be both genders.
 
-* The best way to promote our quiz game is through online advertisements and social media shares.
+- The best way to promote our quiz game is through online advertisements and social media shares.
 
 ### **Uers Story**
 
@@ -79,27 +79,27 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - Homepage navigation - consists three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
 
-* Music on and off switch - which allows the users to switch on the music if they would like to.
+- Music on and off switch - which allows the users to switch on the music if they would like to.
 
-* Progress text - shows how many questiones the user have finished on and how many questions left in the game.
+- Progress text - shows how many questiones the user have finished on and how many questions left in the game.
 
-* Progress bar - indicates the percentage of the questions have been done out the game at this particular moment.
+- Progress bar - indicates the percentage of the questions have been done out the game at this particular moment.
 
-* Score updates - tells the user how many points the have gain so far in the game.
+- Score updates - tells the user how many points the have gain so far in the game.
 
-* Display question section - allow the users to see the displayed question and participate.
+- Display question section - allow the users to see the displayed question and participate.
 
-* Multiple-choice section - gives the users four choices they can choose from.
+- Multiple-choice section - gives the users four choices they can choose from.
 
-* Right(green) or Wrong answer(red) - indicate the users if they have selected the right or wrong answer.
+- Right(green) or Wrong answer(red) - indicate the users if they have selected the right or wrong answer.
 
-* High Score page navigation - consist with three main buttons which allows the users to save their name and score, play again or go back to the homepage.
+- High Score page navigation - consist with three main buttons which allows the users to save their name and score, play again or go back to the homepage.
 
-* High Score indication bar - tells the users how many points in total they have gained.
+- High Score indication bar - tells the users how many points in total they have gained.
 
-* Username Input field - gives the users the options to enter their name and save their score in the local storage.
+- Username Input field - gives the users the options to enter their name and save their score in the local storage.
 
-* Congratulations Animation - congrates the users for their score and enhance users experience.
+- Congratulations Animation - congrates the users for their score and enhance users experience.
 
 ### **Features Left to Implement**
 
@@ -107,19 +107,57 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ## **Technologies Used**
 
-- HTML5
+- [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.)
 
   - The language used to give the site its main structure and all necessary features.
 
-- CSS3
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
   - The language used to give the application its visual effects including the font, color and layout etc.
 
-- Javascript
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
   - The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
 
--
+- [Google Fonts](https://fonts.google.com/)
+
+  - The font used on this quiz were chosen from Google fonts.
+
+- [Fontawesome](https://fontawesome.com/)
+
+  - The icons used on this quiz were found in Fontawesome.
+
+- [Balsamiq](https://balsamiq.com/)
+
+  - The wireframes were created using Balsamiq.
+
+- [Google DevTools](https://developer.chrome.com/docs/devtools/)
+
+  - Google DevTools was extensively used throughout the project for various styling, testing and debugging purposes.
+
+- [Am I Responsive](http://ami.responsivedesign.is/)
+
+  - Am I responsive has been used to test the responsiveness of the site and also to create the mock-up image presented at the start of this document.
+
+- [W3C Markup Validation service](https://validator.w3.org/)
+
+  - W3C Markup Validation Service has been used to test the HTML codes.
+
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+  - W3C CSS Validation Service has been used to test the CSS codes.
+
+- [tinypng.com](https://tinypng.com/)
+
+  - tinypng.com has been used to compress large images.
+
+- [coolors](https://coolors.co/)
+
+  - coolors has been used to decide the color scheme for the site.
+
+- [Open Trivia Database](https://opentdb.com/api_config.php)
+
+  - Open Trivia Database has been used to get the main questions for the quiz.
 
 ## **Testing**
 
