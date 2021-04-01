@@ -17,6 +17,22 @@ let currentScore = 0;
 let availableQuestions = [];
 let questionCounter = 0;
 let acceptingAnswers = false;
+let questions = [];
+
+// fetch questions from json file
+fetch("questions.json")
+  .then((res) => {
+    return res.json();
+  })
+  // load questions
+  .then((loadedQuestions) => {
+    questions = loadedQuestions;
+    startGame();
+  })
+  // catch error
+  .catch((err) => {
+    console.log(err);
+  });
 
 // FUNCTIONS
 startGame = () => {
@@ -85,5 +101,3 @@ validateAnswer = (event) => {
 for (var index = 0; index < choices.length; index++) {
   choices[index].addEventListener("click", validateAnswer);
 }
-// call the function
-startGame();
