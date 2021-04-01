@@ -1,31 +1,3 @@
-let questions = [
-  {
-    question: "Who voices Woody in Toy Story?",
-    choice1: "Nicolas Cage",
-    choice2: "Richard Harris",
-    choice3: "Tom Cruise",
-    choice4: "Tom Hanks",
-    answer: "Tom Hanks",
-  },
-  {
-    question:
-      "Including this year's release No Time To Die, how many official James Bond films are there?",
-    choice1: "10",
-    choice2: "25",
-    choice3: "19",
-    choice4: "21",
-    answer: "25",
-  },
-  {
-    question: "When was the first Star Wars film released?",
-    choice1: "1977",
-    choice2: "1981",
-    choice3: "1980",
-    choice4: "1983",
-    answer: "1977",
-  },
-];
-
 // CONSTANTS
 const question = document.getElementById("question");
 const choice1 = document.getElementById("choice-1");
