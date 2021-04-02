@@ -72,9 +72,9 @@ body {
   width: 0%;
 }
 
-/* LOADER******** REF W3SCHOOL*/
+/* LOADER * / /*REF W3SCHOOL*/
 
-.loader {
+#loader {
   border: 12px solid #c9c0c0;
   border-top: 12px solid #ffd60a;
   border-radius: 50%;

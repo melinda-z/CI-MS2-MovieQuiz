@@ -8,6 +8,8 @@ const choices = document.getElementsByClassName("choice-text");
 const scoreText = document.getElementById("score");
 const questionCounterText = document.getElementById("questionCounter-text");
 const progressBarFull = document.getElementById("progress-bar-full");
+const game = document.getElementById("game");
+const loader = document.getElementById("loader");
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
@@ -64,6 +66,9 @@ startGame = () => {
   //   spread operator expands the array into individual elements
   availableQuestions = [...questions];
   displayQuestion();
+  //  display a loader while the questions are being loaded
+  game.classList.remove("hidden");
+  loader.classList.add("hidden");
 };
 
 displayQuestion = () => {
