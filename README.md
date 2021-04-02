@@ -27,7 +27,7 @@ Who doesn't like a good old quiz?! Quiz is a fun way to spend your time when you
 
 Do you think you love watching movie and have watched a lot of movies in the past, that you consider yourself as a movie buff? Take a few minutes complete the quiz, you will find out if that is true!
 
-This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of, it's made of 1000 questions, each game has 10 questions, each correct question gains 10 points, so you can keep playing and aim for that 100 points each time! Have fun!
+This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of, it's made of 125 questions, each game has 10 questions, each correct question gains 10 points, so you can keep playing and aim for that 100 points each time! Have fun!
 
 ## **Users Experience (UX)**
 

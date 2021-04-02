@@ -9,7 +9,7 @@ const scoreText = document.getElementById("score");
 const questionCounterText = document.getElementById("questionCounter-text");
 const progressBarFull = document.getElementById("progress-bar-full");
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 3;
 
 // LET
 let currentQuestion = {};
@@ -26,7 +26,6 @@ fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
   })
   // load questions
   .then((loadedQuestions) => {
-    console.log(loadedQuestions);
     questions = loadedQuestions.results.map((loadedQuestion) => {
       // set the question format
       const formattedQuestion = {
@@ -34,13 +33,13 @@ fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
       };
       // set the choices format
       const answerChoices = [...loadedQuestion.incorrect_answers];
-      // display the correct answer randomly
+      // set the correct answer format
       formattedQuestion.answer = loadedQuestion.correct_answer;
       answerChoices.splice(
-        // the correct answer index
-        formattedQuestion.answer - 1,
+        // get a random number between 0-3
+        Math.floor(Math.random() * 4),
         0,
-        // insert the correct answer into the choices
+        // insert the correct answer into a random place inbetween the choices
         loadedQuestion.correct_answer
       );
 
@@ -48,10 +47,10 @@ fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
       answerChoices.forEach((choice, index) => {
         formattedQuestion["choice" + (index + 1)] = choice;
       });
-
       return formattedQuestion;
     });
     startGame();
+    console.log(questions);
   })
   // catch error
   .catch((err) => {
