@@ -9,7 +9,7 @@ const scoreText = document.getElementById("score");
 const questionCounterText = document.getElementById("questionCounter-text");
 const progressBarFull = document.getElementById("progress-bar-full");
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 // LET
 let currentQuestion = {};

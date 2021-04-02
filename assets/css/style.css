@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
-/* Utilities */
-
 * {
   box-sizing: border-box;
 }
@@ -14,6 +12,8 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+/* Utilities */
 
 .container {
   width: 100vw;
@@ -46,6 +46,9 @@ h1 {
   font-size: 3.5rem;
   font-family: "Oswald", sans-serif;
   color: #ffd60a;
+}
+.hidden {
+  display: none;
 }
 
 /* Home page buttons */
