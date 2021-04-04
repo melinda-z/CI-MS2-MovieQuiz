@@ -10,6 +10,7 @@ const questionCounterText = document.getElementById("questionCounter-text");
 const progressBarFull = document.getElementById("progress-bar-full");
 const game = document.getElementById("game");
 const loader = document.getElementById("loader");
+const timeleft = document.getElementById("timeleft");
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
@@ -63,12 +64,27 @@ fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
 startGame = () => {
   questionCounter = 0;
   currentscore = 0;
+
   //   spread operator expands the array into individual elements
   availableQuestions = [...questions];
   displayQuestion();
   //  display a loader while the questions are being loaded
   game.classList.remove("hidden");
   loader.classList.add("hidden");
+};
+
+timer = () => {
+  // set timer decrease 1 every second
+  time = time - 1;
+  if (time < 60) {
+    // display time left
+    timeleft.innerHTML = `<i class="fas fa-clock"> Time Left : ${time} seconds`;
+  }
+  if (time < 1) {
+    // move onto the next question when the time is up
+    window.clearInterval(update);
+    displayQuestion();
+  }
 };
 
 displayQuestion = () => {
@@ -94,6 +110,9 @@ displayQuestion = () => {
   currentQuestion = displayingQuestion;
   // remove used question
   availableQuestions.splice(randomIndex, 1);
+  // set timer of 60s for each question
+  time = 60;
+  update = setInterval("timer()", 1000);
   acceptingAnswers = true;
 };
 
