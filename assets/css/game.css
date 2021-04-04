@@ -91,3 +91,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* GO HOME BUTTON */
+
+#go-home {
+  margin-left: 90%;
+  font-size: 2rem;
+  color: #ffd60a;
+}
