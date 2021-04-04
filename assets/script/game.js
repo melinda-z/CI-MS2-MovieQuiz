@@ -11,6 +11,7 @@ const progressBarFull = document.getElementById("progress-bar-full");
 const game = document.getElementById("game");
 const loader = document.getElementById("loader");
 const timeleft = document.getElementById("timeleft");
+const sound = document.getElementById("sound");
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
@@ -144,7 +145,13 @@ validateAnswer = (event) => {
   }
 };
 
+soundOn = () => {
+  sound.innerHTML = `<i class="fas fa-volume-up"></i>`;
+};
+
 // EVENTS
 for (var index = 0; index < choices.length; index++) {
   choices[index].addEventListener("click", validateAnswer);
 }
+
+sound.addEventListener("click", soundOn);
