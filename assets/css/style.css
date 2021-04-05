@@ -116,3 +116,13 @@ h1 {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* Music On Button */
+
+#music {
+  position: absolute;
+  left: 70%;
+  top: 20%;
+  color: #ffd60a;
+  font-size: 2rem;
+}

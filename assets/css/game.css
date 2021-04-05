@@ -92,20 +92,29 @@ body {
   }
 }
 
-/* GO HOME BUTTON */
+/* GO HOME AND SOUND ON BUTTON */
 
 #go-home {
   font-size: 2rem;
   color: #ffd60a;
 }
 
-/* SOUND ON BUTTON */
-
 #game-page-button {
   display: flex;
   margin-left: auto;
 }
-#sound {
+
+#sound-up,
+#mute {
   font-size: 2.2rem;
   padding-right: 1rem;
+}
+
+#mute:hover,
+#sound-up:hover {
+  cursor: pointer;
+}
+
+#sound {
+  margin: 0;
 }

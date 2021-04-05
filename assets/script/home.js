@@ -4,6 +4,7 @@
 const modal = document.getElementById("rules-modal");
 const btn = document.getElementById("rules-button");
 const closeModal = document.getElementById("close-modal");
+const music = document.getElementById("music");
 
 // FUNCTIONS
 // open the modal when the user clicks on the button
@@ -20,8 +21,14 @@ anyWhereClose = (event) => {
     modal.style.display = "none";
   }
 };
+// turn the music on, display the on icon and hide the mute icon
+musicOn = () => {
+  music.innerHTML = `<i class="fas fa-volume-up"></i>`;
+  music.classList.add("hidden");
+};
 
 // EVENTS
 btn.addEventListener("click", openModal);
 closeModal.addEventListener("click", close);
 window.addEventListener("click", anyWhereClose);
+music.addEventListener("click", musicOn);
