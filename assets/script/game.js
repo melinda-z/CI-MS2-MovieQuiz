@@ -130,6 +130,8 @@ validateAnswer = (event) => {
     // add correct class to the selected answer
     selectedAnswer.parentElement.classList.add("correct");
     acceptingAnswers = false;
+    rightAnswerAudio();
+
     // remove the correct class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("correct");
@@ -139,11 +141,33 @@ validateAnswer = (event) => {
     // add incorrect class to the selected answer
     selectedAnswer.parentElement.classList.add("incorrect");
     acceptingAnswers = false;
+    wrongAnswerAudio();
+
     // remove the incorrect class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("incorrect");
       displayQuestion();
     }, 1000);
+  }
+};
+
+rightAnswerAudio = () => {
+  if (muteButton.classList.contains("hidden")) {
+    sound.innerHTML = `<audio autoplay>
+    <source  src="assets/audio/right-answer.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>`;
+    soundUpButton.classList.remove("hidden");
+  }
+};
+
+wrongAnswerAudio = () => {
+  if (muteButton.classList.contains("hidden")) {
+    sound.innerHTML = `<audio autoplay>
+    <source  src="assets/audio/wrong-answer.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>`;
+    soundUpButton.classList.remove("hidden");
   }
 };
 
