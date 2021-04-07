@@ -14,6 +14,8 @@ const timeleft = document.getElementById("timeleft");
 const sound = document.getElementById("sound");
 const muteButton = document.getElementById("mute");
 const soundUpButton = document.getElementById("sound-up");
+const rightAnswerAudio = document.getElementById("right-answer");
+const wrongAnswerAudio = document.getElementById("wrong-answer");
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
@@ -115,7 +117,7 @@ displayQuestion = () => {
   availableQuestions.splice(randomIndex, 1);
   // set timer of 60s for each question
   time = 60;
-  update = setInterval("timer()", 1000);
+  update = setInterval("timer()", 2000);
   acceptingAnswers = true;
 };
 
@@ -130,8 +132,10 @@ validateAnswer = (event) => {
     // add correct class to the selected answer
     selectedAnswer.parentElement.classList.add("correct");
     acceptingAnswers = false;
-    rightAnswerAudio();
-
+    // if the sound on button is pressed play right answer audio
+    if (muteButton.classList.contains("hidden")) {
+      rightAnswerAudio.play();
+    }
     // remove the correct class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("correct");
@@ -141,8 +145,10 @@ validateAnswer = (event) => {
     // add incorrect class to the selected answer
     selectedAnswer.parentElement.classList.add("incorrect");
     acceptingAnswers = false;
-    wrongAnswerAudio();
-
+    // if the sound on button is pressed play wrong answer audio
+    if (muteButton.classList.contains("hidden")) {
+      wrongAnswerAudio.play();
+    }
     // remove the incorrect class after 1 second
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("incorrect");
@@ -151,31 +157,12 @@ validateAnswer = (event) => {
   }
 };
 
-rightAnswerAudio = () => {
-  if (muteButton.classList.contains("hidden")) {
-    sound.innerHTML = `<audio autoplay>
-    <source  src="assets/audio/right-answer.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>`;
-    soundUpButton.classList.remove("hidden");
-  }
-};
-
-wrongAnswerAudio = () => {
-  if (muteButton.classList.contains("hidden")) {
-    sound.innerHTML = `<audio autoplay>
-    <source  src="assets/audio/wrong-answer.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>`;
-    soundUpButton.classList.remove("hidden");
-  }
-};
-
 soundOn = () => {
   muteButton.classList.toggle("hidden");
   soundUpButton.classList.toggle("hidden");
 };
 
+// EVENTS
 for (var index = 0; index < choices.length; index++) {
   choices[index].addEventListener("click", validateAnswer);
 }
