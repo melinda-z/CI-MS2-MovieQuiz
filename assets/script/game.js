@@ -133,7 +133,7 @@ validateAnswer = (event) => {
     selectedAnswer.parentElement.classList.add("correct");
     acceptingAnswers = false;
     // if the sound on button is pressed play right answer audio
-    if (muteButton.classList.contains("hidden")) {
+    if (soundUpButton.classList.contains("hidden")) {
       rightAnswerAudio.play();
     }
     // remove the correct class after 1 second
@@ -146,7 +146,7 @@ validateAnswer = (event) => {
     selectedAnswer.parentElement.classList.add("incorrect");
     acceptingAnswers = false;
     // if the sound on button is pressed play wrong answer audio
-    if (muteButton.classList.contains("hidden")) {
+    if (soundUpButton.classList.contains("hidden")) {
       wrongAnswerAudio.play();
     }
     // remove the incorrect class after 1 second
