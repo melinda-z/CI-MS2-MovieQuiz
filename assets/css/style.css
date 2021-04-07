@@ -119,10 +119,15 @@ h1 {
 
 /* Music On Button */
 
-#music {
+#musicOn,
+#musicOff {
   position: absolute;
   left: 70%;
   top: 20%;
   color: #ffd60a;
   font-size: 2rem;
+}
+#musicOn:hover,
+#musicOff:hover {
+  cursor: pointer;
 }
