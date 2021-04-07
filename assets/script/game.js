@@ -156,7 +156,7 @@ validateAnswer = (event) => {
     }, 1000);
   }
 };
-
+// option to turn the sound on/off
 soundOn = () => {
   muteButton.classList.toggle("hidden");
   soundUpButton.classList.toggle("hidden");

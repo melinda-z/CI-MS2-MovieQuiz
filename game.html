@@ -15,8 +15,8 @@
   <body>
     
     <div class="container">
+      <!-- display a loader before the questions are displayed if there is a delay on loading -->
       <div id="loader"></div>
-      
       <div id="game" class="justify-center flex-column hidden">
         <!-- quiz hud section -->
         <div id="hud">
@@ -49,9 +49,14 @@
           <p class="choice-prefix">D</p>
           <p class="choice-text" id="choice-4"></p>
         </div>
+        <!-- display time left to the user before the game move onto the next question -->
         <p id="timeleft"></i></p>
+        <!-- button for go back to home page and button to turn the audio on and off -->
         <div id="game-page-button">
         <p id="sound"><i id="mute" class="fas fa-volume-mute"></i><i id ="sound-up" class="fas fa-volume-up hidden"></i></p>
+        <a id="go-home" href="/index.html"><i class="fas fa-home"></i></a>
+        </div>
+        <!-- right/wrong answer audio -->
         <audio id="right-answer">
           <source  src="assets/audio/right-answer.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -60,8 +65,6 @@
           <source  src="assets/audio/wrong-answer.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
         </audio>
-        <a id="go-home" href="/index.html"><i class="fas fa-home"></i></a>
-        </div>
       </div>
     </div>
     <script type="text/javascript" src="assets/script/game.js"></script>
