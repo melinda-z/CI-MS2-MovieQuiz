@@ -26,6 +26,7 @@ let availableQuestions = [];
 let questionCounter = 0;
 let acceptingAnswers = false;
 let questions = [];
+let update = null;
 
 // fetch questions from json file
 fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
@@ -87,7 +88,6 @@ timer = () => {
   }
   if (time < 1) {
     // move onto the next question when the time is up
-    window.clearInterval(update);
     displayQuestion();
   }
 };
@@ -97,7 +97,7 @@ displayQuestion = () => {
     // save the score in local storage
     localStorage.setItem("mostRecentScore", currentScore);
     //go to the end page
-    return window.location.assign("/end.html");
+    return window.location.assign("end.html");
   }
   questionCounter++;
   questionCounterText.innerHTML = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -115,9 +115,10 @@ displayQuestion = () => {
   currentQuestion = displayingQuestion;
   // remove used question
   availableQuestions.splice(randomIndex, 1);
+  clearInterval(update);
   // set timer of 60s for each question
   time = 60;
-  update = setInterval("timer()", 2000);
+  update = setInterval("timer()", 1000);
   acceptingAnswers = true;
 };
 
