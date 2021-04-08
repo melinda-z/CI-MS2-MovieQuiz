@@ -115,9 +115,9 @@ displayQuestion = () => {
   currentQuestion = displayingQuestion;
   // remove used question
   availableQuestions.splice(randomIndex, 1);
+  time = 60;
   clearInterval(update);
   // set timer of 60s for each question
-  time = 60;
   update = setInterval("timer()", 1000);
   acceptingAnswers = true;
 };
