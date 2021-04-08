@@ -7,7 +7,6 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   background: url("../images/cinema.jpg");
   background-position: center;
   background-size: cover;
@@ -16,8 +15,6 @@ body {
 /* Utilities */
 
 .container {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,11 +120,19 @@ h1 {
 #musicOff {
   position: absolute;
   left: 70%;
-  top: 20%;
+  top: 10%;
   color: #ffd60a;
   font-size: 2rem;
 }
 #musicOn:hover,
 #musicOff:hover {
   cursor: pointer;
+}
+
+/* Media Query */
+@media only screen and (min-height: 667px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
 }

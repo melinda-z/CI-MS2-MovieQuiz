@@ -1,5 +1,3 @@
-// Game Rules button - Modal
-
 // CONSTANTS
 const modal = document.getElementById("rules-modal");
 const btn = document.getElementById("rules-button");
