@@ -34,7 +34,9 @@ saveHighScore = (event) => {
   // set the high score to a string in local storage
   localStorage.setItem("highScores", JSON.stringify(highScores));
   // return to the home when score has been saved
-  window.location.assign("CI-MS2-MOVIEQUIZ/index.html");
+  window.location.assign(
+    "https://melindazhang2020.github.io/CI-MS2-MovieQuiz/index.html"
+  );
 };
 
 // EVENTS
