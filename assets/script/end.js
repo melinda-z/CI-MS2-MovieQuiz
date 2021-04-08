@@ -34,7 +34,7 @@ saveHighScore = (event) => {
   // set the high score to a string in local storage
   localStorage.setItem("highScores", JSON.stringify(highScores));
   // return to the home when score has been saved
-  window.location.assign("index.html");
+  window.location.assign("CI-MS2-MOVIEQUIZ/index.html");
 };
 
 // EVENTS
