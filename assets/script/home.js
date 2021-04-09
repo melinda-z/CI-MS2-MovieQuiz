@@ -26,7 +26,7 @@ anyWhereClose = (event) => {
 musicOnOff = () => {
   musicOnButton.classList.toggle("hidden");
   musicOffButton.classList.toggle("hidden");
-  if (musicOffButton.classList.contains("hidden")) {
+  if (musicOnButton.classList.contains("hidden")) {
     backgroundMusic.play();
     // put music on repeat
     backgroundMusic.loop = true;
