@@ -6,26 +6,29 @@ const finalScore = document.getElementById("final-score");
 const mostRecentScore = localStorage.getItem("mostRecentScore");
 // get the highscore that saved in the local storage and convert it into an array with JSON.parse
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-
+// get the two end game modals for a new high score is created and when it's not
 const niceJob = document.getElementById("nice-job");
 const congrats = document.getElementById("congrats");
-
-console.log(highScores);
-let highScoresArray = [];
-highScores.forEach(function (obj) {
-  highScoresArray.push(obj.score);
-});
-console.log(highScoresArray);
-if (mostRecentScore > Math.max(...highScoresArray)) {
-  congrats.classList.remove("hidden");
-} else {
-  niceJob.classList.remove("hidden");
-}
 
 // set the max number of high scores going to be saved and displayed
 const MAX_HIGH_SCORES = 5;
 // display the most recent score on the end screen
 finalScore.innerText = mostRecentScore;
+
+// LET
+// get the top five high scores and push them into an array
+let highScoresArray = [];
+highScores.forEach(function (obj) {
+  highScoresArray.push(obj.score);
+});
+// compare the most rencent score with the scores in the highScoreArray
+if (mostRecentScore > Math.max(...highScoresArray)) {
+  // display the congrats image if it's a new high score
+  congrats.classList.remove("hidden");
+} else {
+  // display a nice job image if it's not a new high score
+  niceJob.classList.remove("hidden");
+}
 
 // FUNCTIONS
 allowUserSave = () => {
