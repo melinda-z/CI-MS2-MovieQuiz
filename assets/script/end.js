@@ -6,6 +6,17 @@ const finalScore = document.getElementById("final-score");
 const mostRecentScore = localStorage.getItem("mostRecentScore");
 // get the highscore that saved in the local storage and convert it into an array with JSON.parse
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+const congratsModal = document.getElementById("congrats-modal");
+
+console.log(highScores);
+let highScoresArray = [];
+highScores.forEach(function (obj) {
+  highScoresArray.push(obj.score);
+});
+console.log(highScoresArray);
+if (mostRecentScore > Math.max(...highScoresArray)) {
+  congratsModal.classList.remove("hidden");
+}
 
 // set the max number of high scores going to be saved and displayed
 const MAX_HIGH_SCORES = 5;

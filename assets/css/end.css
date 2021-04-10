@@ -24,3 +24,12 @@ form {
 #username::placeholder {
   text-align: center;
 }
+
+/* Congrats Modal */
+
+#congrats-modal {
+  text-align: center;
+  background: lightgoldenrodyellow;
+  padding: 0;
+  border-radius: 20px;
+}
