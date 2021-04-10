@@ -9,14 +9,18 @@ form {
   align-items: center;
   flex-direction: column;
 }
+#final-score {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 
 /* User input field */
 #username {
   font-size: 1rem;
-  padding: 0.5rem;
+  padding: 0.4rem;
   border: 1px solid #ffd60a;
   border-radius: 20px;
-  width: 78%;
+  width: 77%;
   background-color: lightgray;
   margin-bottom: 1.5rem;
 }
@@ -27,9 +31,19 @@ form {
 
 /* Congrats Modal */
 
-#congrats-modal {
+#congrats-img,
+#nice-job-img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.congrats-modal {
   text-align: center;
   background: lightgoldenrodyellow;
   padding: 0;
   border-radius: 20px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #6a040f;
 }

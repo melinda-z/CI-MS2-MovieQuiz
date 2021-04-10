@@ -15,7 +15,7 @@
       type="image/png"
       href="assets/images/favicon.png"
     />
-    <!-- stylesheet link -->
+    <!-- Stylesheet link -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/end.css" />
     <title>Congratulations!</title>
@@ -24,20 +24,22 @@
     <div class="container">
       <div id="end" class="flex-center flex-column">
         <h1 id="final-score">0</h1>
-        <!-- The Modal -->
-        <div id="congrats-modal" class="hidden">
-          <!-- Modal content -->
-          <div>
-            <span>&times;</span>
-            <p>
-              Congratulations! A new high Score!
-              <img
-                id="congrats-img"
-                src="assets/images/arabica-1092.png"
-                alt="winning-trophy"
-              />
-            </p>
-          </div>
+        <!-- The End Game Modal -->
+        <div id="nice-job" class="hidden congrats-modal">
+          <p>Good job! Try Again For A New High Score!</p>
+          <img
+            id="nice-job-img"
+            src="assets/images/nice-job.png"
+            alt="girl-thumbs-up"
+          />
+        </div>
+        <div id="congrats" class="hidden congrats-modal">
+          <p>Congratulations! A New High Score! Enter Your Name To Save!</p>
+          <img
+            id="congrats-img"
+            src="assets/images/new-high-score.png"
+            alt="winning-trophy"
+          />
         </div>
         <form>
           <input

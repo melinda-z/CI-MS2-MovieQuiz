@@ -6,7 +6,9 @@ const finalScore = document.getElementById("final-score");
 const mostRecentScore = localStorage.getItem("mostRecentScore");
 // get the highscore that saved in the local storage and convert it into an array with JSON.parse
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-const congratsModal = document.getElementById("congrats-modal");
+
+const niceJob = document.getElementById("nice-job");
+const congrats = document.getElementById("congrats");
 
 console.log(highScores);
 let highScoresArray = [];
@@ -15,7 +17,9 @@ highScores.forEach(function (obj) {
 });
 console.log(highScoresArray);
 if (mostRecentScore > Math.max(...highScoresArray)) {
-  congratsModal.classList.remove("hidden");
+  congrats.classList.remove("hidden");
+} else {
+  niceJob.classList.remove("hidden");
 }
 
 // set the max number of high scores going to be saved and displayed
