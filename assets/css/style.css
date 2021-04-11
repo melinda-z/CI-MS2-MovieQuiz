@@ -136,3 +136,37 @@ h1 {
     height: 100vh;
   }
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #370617;
+  padding: 0.5rem;
+}
+.social {
+  padding: 0 0.8rem;
+  color: #e85d04;
+  font-size: 1.5rem;
+}
+.social:hover {
+  color: lightgoldenrodyellow;
+}
+
+/* Footer arrow */
+
+#footer-arrow {
+  text-align: center;
+  color: #9d0208;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 95%;
+  animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-10px);
+    color: lightgoldenrodyellow;
+  }
+}
