@@ -16,7 +16,7 @@ body {
   transform: scale(1.025);
 }
 /* Media Query */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
   #finalScore {
     font-size: 2.5rem;
   }
