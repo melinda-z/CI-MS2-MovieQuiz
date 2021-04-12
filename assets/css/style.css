@@ -139,13 +139,18 @@ h1 {
 
 /* Footer */
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #370617;
-  padding: 0.5rem;
+}
+#footer-text {
+  color: #faa307;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .social {
   padding: 0 0.8rem;
-  color: #e85d04;
+  color: #faa307;
   font-size: 1.5rem;
 }
 .social:hover {
@@ -153,13 +158,13 @@ footer {
 }
 
 /* Footer arrow */
-
 #footer-arrow {
   text-align: center;
   color: #9d0208;
   font-size: 1.5rem;
   position: absolute;
-  top: 95%;
+  top: 93%;
+  /* idea from codepen.ie https://codepen.io/lloopp/pen/XWJKMNr */
   animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
   cursor: pointer;
 }

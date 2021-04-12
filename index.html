@@ -20,7 +20,7 @@
     <title>Movie Quiz</title>
   </head>
   <body>
-    <div class="container">
+    <div id="main" class="container">
       <!-- background music on/off option -->
       <div id="music">
         <i id="musicOn" class="fas fa-volume-mute"></i>
@@ -57,12 +57,18 @@
         <a class="btn" id="start" href="game.html"
           >Start Game <i class="fas fa-arrow-circle-right"></i
         ></a>
+        <!-- arrow icon for open up footer section -->
       </div>
       <div id="footer-arrow">
         <i id="arrow" class="fas fa-angle-down"></i>
       </div>
     </div>
-    <footer class="hidden">
+    <!-- footer hidden by default -->
+    <footer id="footer" class="hidden">
+      <p id="footer-text">
+        Made with <i class="fas fa-heart"></i> by Melinda Zhang
+        <i class="far fa-copyright"></i> 2021
+      </p>
       <a
         href="https://www.linkedin.com/in/melinda-zhang-0012301aa/"
         target="_blank"

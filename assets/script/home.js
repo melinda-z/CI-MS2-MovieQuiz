@@ -6,6 +6,9 @@ const music = document.getElementById("music");
 const musicOnButton = document.getElementById("musicOn");
 const musicOffButton = document.getElementById("musicOff");
 const backgroundMusic = document.getElementById("background-music");
+const footerArrow = document.getElementById("footer-arrow");
+const footerSection = document.getElementById("footer");
+const mainContainer = document.getElementById("main");
 
 // FUNCTIONS
 // open the modal when the user clicks on the button
@@ -34,9 +37,18 @@ musicOnOff = () => {
     backgroundMusic.pause();
   }
 };
-
+// opens up the footer section
+openFooter = () => {
+  footerSection.classList.toggle("hidden");
+  if (!footerSection.classList.contains("hidden")) {
+    mainContainer.style.maxHeight = "95vh";
+  } else {
+    mainContainer.style.maxHeight = "100vh";
+  }
+};
 // EVENTS
 btn.addEventListener("click", openModal);
 closeModal.addEventListener("click", close);
 window.addEventListener("click", anyWhereClose);
 music.addEventListener("click", musicOnOff);
+footerArrow.addEventListener("click", openFooter);
