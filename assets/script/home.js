@@ -6,7 +6,7 @@ const music = document.getElementById("music");
 const musicOnButton = document.getElementById("musicOn");
 const musicOffButton = document.getElementById("musicOff");
 const backgroundMusic = document.getElementById("background-music");
-const footerArrow = document.getElementById("footer-arrow");
+const footerArrow = document.getElementById("arrow");
 const footerSection = document.getElementById("footer");
 const mainContainer = document.getElementById("main");
 
@@ -41,7 +41,7 @@ musicOnOff = () => {
 openFooter = () => {
   footerSection.classList.toggle("hidden");
   if (!footerSection.classList.contains("hidden")) {
-    mainContainer.style.height = "93.5vh";
+    mainContainer.style.height = "94vh";
   } else {
     mainContainer.style.height = "100vh";
   }
