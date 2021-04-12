@@ -15,3 +15,9 @@ body {
 .high-score:hover {
   transform: scale(1.025);
 }
+/* Media Query */
+@media only screen and (max-width: 360px) {
+  #finalScore {
+    font-size: 2.5rem;
+  }
+}
