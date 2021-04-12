@@ -148,6 +148,9 @@ h1 {
     top: 8%;
     font-size: 1.5rem;
   }
+  #rules-modal {
+    font-size: 1.2rem;
+  }
 }
 
 /* Footer */
