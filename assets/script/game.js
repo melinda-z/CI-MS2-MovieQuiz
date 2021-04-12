@@ -116,7 +116,6 @@ displayQuestion = () => {
   // remove used question
   availableQuestions.splice(randomIndex, 1);
   time = 60;
-  clearInterval(update);
   // set timer of 60s for each question
   update = setInterval("timer()", 1000);
   acceptingAnswers = true;
@@ -141,6 +140,7 @@ validateAnswer = (event) => {
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("correct");
       displayQuestion();
+      clearInterval(update);
     }, 1000);
   } else {
     // add incorrect class to the selected answer
@@ -154,6 +154,7 @@ validateAnswer = (event) => {
     setTimeout(() => {
       selectedAnswer.parentElement.classList.remove("incorrect");
       displayQuestion();
+      clearInterval(update);
     }, 1000);
   }
 };
