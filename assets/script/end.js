@@ -25,6 +25,9 @@ highScores.forEach(function (obj) {
 if (mostRecentScore > Math.max(...highScoresArray)) {
   // display the congrats image if it's a new high score
   congrats.classList.remove("hidden");
+} else if (mostRecentScore == 0) {
+  niceJob.classList.remove("hidden");
+  niceJob.innerHTML = `Sorry, no points made, try again!`;
 } else {
   // display a nice job image if it's not a new high score
   niceJob.classList.remove("hidden");
