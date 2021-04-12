@@ -41,9 +41,9 @@ musicOnOff = () => {
 openFooter = () => {
   footerSection.classList.toggle("hidden");
   if (!footerSection.classList.contains("hidden")) {
-    mainContainer.style.maxHeight = "95vh";
+    mainContainer.style.height = "93.5vh";
   } else {
-    mainContainer.style.maxHeight = "100vh";
+    mainContainer.style.height = "100vh";
   }
 };
 // EVENTS

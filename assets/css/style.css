@@ -136,6 +136,19 @@ h1 {
     height: 100vh;
   }
 }
+@media only screen and (max-width: 360px) {
+  #head-line {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  #musicOn,
+  #musicOff {
+    position: absolute;
+    left: 75%;
+    top: 8%;
+    font-size: 1.5rem;
+  }
+}
 
 /* Footer */
 footer {
