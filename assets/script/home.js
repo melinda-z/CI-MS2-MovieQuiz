@@ -41,7 +41,7 @@ musicOnOff = () => {
 openFooter = () => {
   footerSection.classList.toggle("hidden");
   if (!footerSection.classList.contains("hidden")) {
-    mainContainer.style.height = "94vh";
+    mainContainer.style.height = "95vh";
   } else {
     mainContainer.style.height = "100vh";
   }
