@@ -88,6 +88,7 @@ timer = () => {
   }
   if (time < 1) {
     // move onto the next question when the time is up
+    clearInterval(update);
     displayQuestion();
   }
 };
