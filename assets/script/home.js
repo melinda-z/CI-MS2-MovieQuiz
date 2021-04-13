@@ -30,11 +30,11 @@ musicOnOff = () => {
   musicOnButton.classList.toggle("hidden");
   musicOffButton.classList.toggle("hidden");
   if (musicOnButton.classList.contains("hidden")) {
-    backgroundMusic.play();
+    backgroundMusic.pause();
     // put music on repeat
     backgroundMusic.loop = true;
   } else {
-    backgroundMusic.pause();
+    backgroundMusic.play();
   }
 };
 // opens up the footer section
@@ -52,3 +52,4 @@ closeModal.addEventListener("click", close);
 window.addEventListener("click", anyWhereClose);
 music.addEventListener("click", musicOnOff);
 footerArrow.addEventListener("click", openFooter);
+backgroundMusic.play();
