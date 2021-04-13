@@ -44,7 +44,7 @@ allowUserSave = () => {
   // enable user input if there is a value
   saveHighScoreButton.disabled = !username.value;
 };
-
+//  Codes of saveHighScore function are copied from James Q quick video
 saveHighScore = (event) => {
   event.preventDefault();
   // set the score to an object format

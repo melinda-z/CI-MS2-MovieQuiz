@@ -59,7 +59,6 @@ fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
       return formattedQuestion;
     });
     startGame();
-    console.log(availableQuestions);
   })
   // catch error
   .catch((err) => {

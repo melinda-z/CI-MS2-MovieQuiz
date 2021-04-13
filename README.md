@@ -4,6 +4,8 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
+A live web page can be found [here](https://melindazhang2020.github.io/CI-MS2-MovieQuiz/).
+
 ## **Table of Contents**
 
 - [About](#About)
@@ -83,6 +85,8 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - Music on and off switch - which allows the users to switch on the music if they would like to.
 
+- clickable footer contains copyright and developer social media links.
+
 - Progress text - shows how many questiones the user have finished on and how many questions left in the game.
 
 - Progress bar - indicates the percentage of the questions have been done out the game at this particular moment.
@@ -95,17 +99,31 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - Right(green) or Wrong answer(red) - indicate the users if they have selected the right or wrong answer.
 
-- High Score page navigation - consist with three main buttons which allows the users to save their name and score, play again or go back to the homepage.
+- Right/wrong answer audio gives the users the 2D user experience.
+
+- Options to switch off the sound effect and go back to the home page at any stage of the game.
+
+- Automaticly direct the user to the end page when the game is finished and shows the final score.
+
+- Displaying an end image and audio depending on the score achieved.
+
+- A mute music button is also avaliable in the end page.
+
+- End page navigation - consist with three main buttons which allows the users to save their name and score, play again or go back to the homepage.
 
 - High Score indication bar - tells the users how many points in total they have gained.
 
 - Username Input field - gives the users the options to enter their name and save their score in the local storage.
 
-- Congratulations Animation - congrates the users for their score and enhance users experience.
+- The save button is only clickable when there is an input value in the input field.
 
 ### **Features Left to Implement**
 
 - Displaying relative images in each questions to enhance users visual experience.
+
+- Playing different audio for different score scenarios.
+
+- Only one sound button need to be clicked throughout all pages.
 
 ## **Technologies Used**
 
@@ -120,6 +138,20 @@ This Movie Quiz is designed to include a wide range of questions about all types
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
   - The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+
+- [VScode](https://code.visualstudio.com/)
+
+  - Visual Studio Code has been used as a local code editor for write and manage all codes and files.
+
+- [Github](https://github.com/)
+
+  - Github is used to create, store and maintain all codes in a repository.
+
+  - Github is also used as the site hosting service for the final website to be published on.
+
+- [Git Version control](https://git-scm.com/)
+
+  - Git 2.31.1 for Mac is used for commit and push codes to Github.
 
 - [Google Fonts](https://fonts.google.com/)
 
@@ -169,6 +201,38 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ### **Content**
 
+Throughout the process of doing this project I have done a lot of searching and learning. The codes that are copied and pasted have been marked as a comment in the relevant files. All the rest of the codes are written by myself after learning from resources. The resources and the links I used to learn each concepts are the following:
+
+- Codes
+
+  - [w3schools](https://www.w3schools.com/) - [audio](https://www.w3schools.com/html/html5_audio.asp), [javascript modal](https://www.w3schools.com/howto/howto_css_modals.asp), [loader](https://www.w3schools.com/howto/howto_css_loader.asp), [cubic-bezier](https://www.w3schools.com/cssref/func_cubic-bezier.asp), [javascript objects](https://www.w3schools.com/js/js_objects.asp), [setInterval and clearInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp), [setTimeout](https://www.w3schools.com/js/js_timing.asp), [Array splice](https://www.w3schools.com/jsref/jsref_splice.asp), [DOM changing CSS](https://www.w3schools.com/js/js_htmldom_css.asp), [JSON.parse()](https://www.w3schools.com/js/js_json_parse.asp), [Math.floor()](https://www.w3schools.com/jsref/jsref_floor.asp), [CSS background-image](https://www.w3schools.com/cssref/pr_background-image.asp), [CSS box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp), [Array map()](https://www.w3schools.com/jsref/jsref_map.asp)
+
+  - [7 Methods for Comparing Arrays in JavaScript](https://javascript.plainenglish.io/7-methods-for-comparing-arrays-in-javascript-88f10c071897)
+
+  - [stackoverflow](https://stackoverflow.com/) - [display options randomly](https://stackoverflow.com/questions/53362187/javascript-quiz-display-random-options), [difference between innerText and innerHTML](https://stackoverflow.com/questions/19030742/difference-between-innertext-innerhtml-and-value), [convert an object key value into an array](https://stackoverflow.com/questions/38824349/how-to-convert-an-object-to-an-array-of-key-value-pairs-in-javascript)
+
+  - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max) - [Math.max()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max), [window.location.assign()](https://developer.mozilla.org/en-US/docs/Web/API/Location/assign), [window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), [Array.prototype.join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join), [Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList), [parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt), [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax), [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
+- User Experience
+
+  - [How To Define Your Target Audience in 6 Quick Questions](https://exposureninja.com/blog/define-your-target-audience/)
+
+  - [How to write a good user story](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/#.YFM57o-2eQY.linkedin)
+
 ### **Media**
+
+- Images
+
+  - Front page background image is downloaded from [unsplash](https://unsplash.com/).
+
+  - The end page images is downloaded from [icons8](https://icons8.com/).
+
+  - The favion displayed on top of the page in the tab area is made with [favicon.io](https://favicon.io/).
+
+- Audio
+
+  - The front page audio "sweet surrender" and the right/wrong answer ausio are downloaded using [WavePad](https://www.nch.com.au/wavepad/index.html?ns=true&kw=wavepad&gclid=Cj0KCQjwgtWDBhDZARIsADEKwgPKSGQMHu1oU7mhDP6HxH6ReUbm5iOsK_8w5u3KuxMPnmI2Z4XYqBwaAsfNEALw_wcB)
+
+  - The end page congrats audio is downloaded from [Chosic](https://www.chosic.com/)
 
 ### **Acknowledgements**
