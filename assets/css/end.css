@@ -47,3 +47,12 @@ form {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #6a040f;
 }
+#musicOn,
+#musicOff {
+  color: #ffd60a;
+  font-size: 2rem;
+}
+#musicOn:hover,
+#musicOff:hover {
+  cursor: pointer;
+}

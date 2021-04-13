@@ -9,11 +9,16 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 // get the two end game modals for a new high score is created and when it's not
 const niceJob = document.getElementById("nice-job");
 const congrats = document.getElementById("congrats");
+const endMusic = document.getElementById("end-music");
+const musicOnButton = document.getElementById("musicOn");
+const musicOffButton = document.getElementById("musicOff");
+const congratsMusic = document.getElementById("congrats-music");
 
 // set the max number of high scores going to be saved and displayed
 const MAX_HIGH_SCORES = 5;
 // display the most recent score on the end screen
 finalScore.innerText = mostRecentScore;
+congratsMusic.play();
 
 // LET
 // get the top five high scores and push them into an array
@@ -58,6 +63,19 @@ saveHighScore = (event) => {
   window.location.assign("index.html");
 };
 
+musicOnOff = () => {
+  musicOnButton.classList.toggle("hidden");
+  musicOffButton.classList.toggle("hidden");
+  if (musicOnButton.classList.contains("hidden")) {
+    congratsMusic.pause();
+    // put music on repeat
+    congratsMusic.loop = true;
+  } else {
+    congratsMusic.play();
+  }
+};
+
 // EVENTS
 saveHighScoreButton.addEventListener("click", saveHighScore);
 userName.addEventListener("keyup", allowUserSave);
+endMusic.addEventListener("click", musicOnOff);
