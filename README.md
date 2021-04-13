@@ -2,6 +2,8 @@
 
 Interactive Front-End Development Project using HTML, CSS and Javascript
 
+![Am I Responsive](assets/images/am-i-responsive.png)
+
 ## **Table of Contents**
 
 - [About](#About)

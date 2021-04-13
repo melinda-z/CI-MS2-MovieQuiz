@@ -44,6 +44,17 @@
             alt="winning-trophy"
           />
         </div>
+        <div id="good-try" class="hidden congrats-modal">
+          <p>
+            Sorry Buddy, no points made, but well done for giving it a go! Try
+            again!
+          </p>
+          <img
+            id="congrats-img"
+            src="assets/images/well-done-for-trying.png"
+            alt="two-kids-high-five"
+          />
+        </div>
         <form>
           <input
             type="text"
@@ -65,7 +76,11 @@
           <i id="musicOff" class="fas fa-volume-mute hidden"></i>
           <i id="musicOn" class="fas fa-volume-up"></i>
           <audio id="congrats-music">
-            <source src="assets/audio/Samovar Party.mp3" type="audio/mpeg" />
+            <source
+              src="assets/audio/Samovar Party.mp3"
+              type="audio/mpeg"
+              allow="autoplay"
+            />
             Your browser does not support the audio element.
           </audio>
         </div>
