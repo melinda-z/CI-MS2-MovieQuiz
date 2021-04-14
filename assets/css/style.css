@@ -181,7 +181,7 @@ footer {
   font-size: 1.5rem;
   position: absolute;
   top: 93%;
-  /* idea from codepen.ie https://codepen.io/lloopp/pen/XWJKMNr */
+  /* idea https://codepen.io/lloopp/pen/XWJKMNr */
   animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
   cursor: pointer;
 }
