@@ -195,11 +195,13 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ## **Testing**
 
+Testing information can be found in a seperate file [testing.md](testing.md)
+
 ## **Deployment**
 
 The project codes have been written in Visual Studio Code and pushed to GitHub using git Bash, to share the live website with others, I deployed my project on GitHub Pages using the following steps:
 
-**Deployment Steps**
+### **Deployment Steps**
 
 1. Logged into Github account.
 
@@ -217,7 +219,7 @@ The project codes have been written in Visual Studio Code and pushed to GitHub u
 
 8. Once clicked, this publishes the project to GitHub Pages and displays the site URL. Click on the URL to view the live site.
 
-**Making a clone or download zip to run locall**
+### **Making a clone or download zip to run locall**
 
 1. Log into GitHub account.
 
@@ -239,7 +241,7 @@ The project codes have been written in Visual Studio Code and pushed to GitHub u
 
 10. Alternately, click on Download ZIP, unpack locally and open with a local code editor.
 
-**Forking the repository**
+### **Forking the repository**
 
 1. Log into GitHub.
 
