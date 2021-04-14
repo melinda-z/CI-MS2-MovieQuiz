@@ -1,4 +1,6 @@
-# Contents
+# CI-MS2-MovieQuiz Testing Documentation
+
+## Table of Contents
 
 - [Testing Devices](#testing-devices)
 
@@ -26,15 +28,9 @@
 
 ## User Stories Testing
 
----
-
 ## Validators
 
----
-
 ## Features Testing
-
----
 
 ### Home Page
 
@@ -116,12 +112,6 @@
 
 ## Site Responsiveness
 
----
-
 ## Further Testing
 
----
-
 ## Bugs and Issues
-
----
