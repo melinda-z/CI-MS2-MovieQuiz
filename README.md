@@ -4,7 +4,7 @@ Interactive Front-End Development Project using HTML, CSS and Javascript
 
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
-A live web page can be found [here](https://melindazhang2020.github.io/CI-MS2-MovieQuiz/).
+A live website can be found [here](https://melindazhang2020.github.io/CI-MS2-MovieQuiz/).
 
 ## **Table of Contents**
 
@@ -196,6 +196,60 @@ This Movie Quiz is designed to include a wide range of questions about all types
 ## **Testing**
 
 ## **Deployment**
+
+The project codes have been written in Visual Studio Code and pushed to GitHub using git Bash, to share the live website with others, I deployed my project on GitHub Pages using the following steps:
+
+**Deployment Steps**
+
+1. Logged into Github account.
+
+2. Select repository.
+
+3. Select CI-MS2_MovieQuiz.
+
+4. On the top right navigation click on settings.
+
+5. Under the settings section, scroll down to the GitHub Pages section.
+
+6. Select Main Branch from the source dropdown menu.
+
+7. Click save.
+
+8. Once clicked, this publishes the project to GitHub Pages and displays the site URL. Click on the URL to view the live site.
+
+**Making a clone or download zip to run locall**
+
+1. Log into GitHub account.
+
+2. Select repository.
+
+3. Select CI-MS2_MovieQuiz.
+
+4. Click on the Code dropdown button next to the green Gitpod button.
+
+5. Click on the clipboard icon to copy the clone URL.
+
+6. Open Git Bash.
+
+7. Change the current working directory to the location where you want the cloned directory.
+
+8. Type "git clone" in the Command Line and then paste the URL copied in step 5.
+
+9. Press enter to create your local clone.
+
+10. Alternately, click on Download ZIP, unpack locally and open with a local code editor.
+
+**Forking the repository**
+
+1. Log into GitHub.
+
+2. Select repository.
+
+3. Select CI-MS2_MovieQuiz.
+
+4. At the very top right corner click "fork".
+
+5. You will have a copy of the original repository in your own GitHub account.
 
 ## **Credits**
 
