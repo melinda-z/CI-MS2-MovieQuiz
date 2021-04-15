@@ -32,7 +32,8 @@ form {
 /* Congrats Modal */
 
 #congrats-img,
-#nice-job-img {
+#nice-job-img,
+#good-try-img {
   width: 10rem;
   height: 10rem;
 }
