@@ -70,19 +70,27 @@
 
 ## Validators
 
-- The W3C CSS Validation Service
+The W3C Markup Validator and The W3C CSS Validator were used to validate every page of the project to ensure there were no syntax errors.
 
-  No errors was found in the first test. A screenshot can be found [here](assets/documentation/w3c-css-validator.png)
+- W3C Markup Validator results
 
-- The W3C HTML Validation Service
+  [Home Page](assets/docomentation/html-home.png)
 
-  An error was found related to audio file name has a space.
+  [Game Page](assets/docomentation/html-game.png)
 
-  An error was found related to an unclosed div.
+  [End Page](assets/docomentation/html-end.png)
 
-  An error was found related to an illegal attribute.
+  [High Scores Page](assets/docomentation/html-highScore.png)
 
-  I have fixed all errors and run the test again, it came back clear, a screenshot can be found [here](assets/documentation)
+- W3C CSS Validator results
+
+  [Home Page](assets/docomentation/css-home.png)
+
+  [Game Page](assets/docomentation/css-game.png)
+
+  [End Page](assets/docomentation/css-end.png)
+
+  [High Scores Page](assets/docomentation/css-highscore.png)
 
 ## Features Testing
 
