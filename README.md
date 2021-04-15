@@ -71,11 +71,11 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ### **Wireframes**
 
-[Desktop wireframe](assets/images/MS2-MovieQuiz-desktop.pdf)
+[Desktop wireframe](assets/documentation/MS2-MovieQuiz-desktop.pdf)
 
-[Tablet wireframe](assets/images/MS2-MovieQuiz-Tablet.pdf)
+[Tablet wireframe](assets/documentation/MS2-MovieQuiz-Tablet.pdf)
 
-[Mobile wireframe](assets/images/MS2-MovieQuiz-Mobile.pdf)
+[Mobile wireframe](assets/documentation/MS2-MovieQuiz-Mobile.pdf)
 
 ## **Features**
 
