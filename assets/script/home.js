@@ -52,4 +52,3 @@ closeModal.addEventListener("click", close);
 window.addEventListener("click", anyWhereClose);
 music.addEventListener("click", musicOnOff);
 footerArrow.addEventListener("click", openFooter);
-backgroundMusic.play();
