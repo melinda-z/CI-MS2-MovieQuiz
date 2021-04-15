@@ -88,17 +88,17 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ### **Design**
 
-- Colour Scheme
+- **Colour Scheme**
 
   The two main colours used are red and yellow, you can find a copy of the colour palette [here](assets/documentation/MS2-color-palette.pdf)
 
-- Typography
+- **Typography**
 
   - Franklin Gothic Medium is the main font used throughout the whole website for main text and buttons, with Arial Narrow, Arial, sans-serif as the fallback font in case of any reason the font isn't being imported into the site correctly. Franklin Gothic is an common font and it suits the scheme and makes the website appealing.
 
   - The headline font is Oswal by google font with sans-serif as the fallback font. It fits in the feel of the site perfectly.
 
-- Imagery
+- **Imagery**
 
   - Imagery is very important. The background hero image is designed to grab user's attention and give the users the feeling as if they are in a cinema.
 
