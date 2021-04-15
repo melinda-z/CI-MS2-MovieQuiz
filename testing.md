@@ -2,10 +2,6 @@
 
 ## Table of Contents
 
-- [Testing Devices](#testing-devices)
-
-- [Testing Browsers](#testing-browsers)
-
 - [User Stories Testing](#user-story-testing)
 
 - [Validators](#validators)
@@ -26,67 +22,51 @@
 
 - [Bugs and Issues](#bugs-and-issues)
 
-## Testing Devices
-
-- MacBook Air
-
-- Dell laptop
-
-- Sumsung Galaxy tab A10.1
-
-- Sumsung Galaxy 5
-
-- Huawei P10
-
-- Sumsung A125F
-
-- Iphone 5
-
-## Testing Browsers
-
-- Google Chrome
-
-- Mozilla Firefox
-
-- Opera
-
-- Microsoft Edge
-
-- Safari
-
 ## User Stories Testing
 
-- As a user, when I enter a website, I want to see a clear visual set up, image and buttons and minimum amount of text on front page. Movie Quiz used a full screen background image and head line and 3 buttons as its main feature on the front page, the visual effect is clear and simple.
+- **General User Goals**
 
-- The color contrast is critical to users as be able to read the content on the page is the most important requirement. Movie Quiz used yellow over dark red color theme, it's easy to read and also easy on the eyes.
+  - As a user, I would like to use other senses rather than just sight, it gives me better experience. Movie Quiz uses aduio throughout the site, background music option on the home page, right/wrong answer sound effect on the game page, and congratulation music when the game ends.
 
-- As a user, I would like to use other senses rather than just sight, it gives me better experience. Movie Quiz uses aduio throughout the site, background music option on the home page, right/wrong answer sound effect on the game page, and congratulation music when the game ends.
+  - As a user, the color contrast is critical to me, I want to be able to read the content on the page. Movie Quiz used yellow over dark red color theme, it's easy to read and also easy on the eyes.
 
-- As a user, when I play a quiz game, I expect the format of questions are well set up. Movie Quiz game page consist question heading area indicating how far the user is in the game, a progress bar for visual effect, updated scores tells how many points they have made so far.
+  - As a user, when I play a quiz game, I expect the format of questions are well set up. Movie Quiz game page consist question heading area indicating how far the user is in the game, a progress bar for visual effect, updated scores tells how many points they have made so far.
 
-- As a user, I need to know where is clickable, and which choice is my mouse on. Moive Quiz choices have a hover over effect, the choice scales bigger, the border changes color and a box shadow appears when the mouse is hovered over.
+  - As a user, sometimes I could get annoyed by the music/sound so I want to have the option to switch it off anytime. Throughout all pages when there's sound/music, a button is provided to switch it off anytime.
 
-- AS a user, I need to know if my answer is right or wrong. Movie Quiz has implemented that need by visual and sound effect. The choice changes to green color if the answer is correct, and red if the answer is incorrect. A dedicated sound is also assigned to both scenarios.
+  - As a user, I expect quiz game is a bit challenging. Movie Quiz has a timer installed in the game, it only gives the user 60 seconds to select an answer.
 
-- As a user, I expect quiz game is a bit challenging. Movie Quiz has a timer installed in the game, it only gives the user 60 seconds to select an answer.
+  - As a mobile user, I want to play the game on my mobile. The site is full responsive, can be played on a mobile or a tablet.
 
-- As a user, I expect to go back to quit the game if I decided to. The game page has a option of going back to home page anytime.
+- **First Time Visitor Goals**
 
-- As a user, when I finish the game, I would like to know my final scores. The game automaticly go to the end page when a game is finished and a final score displays.
+  - As a First Time Visitor, when I enter a website, I want to see a clear visual set up, image and buttons and minimum amount of text on front page. Movie Quiz used a full screen background image and head line and 3 buttons as its main feature on the front page, the visual effect is clear and simple.
 
-- As a user, images and music are better experience than plain text. The game finishes with a congratulations music auto plays and an images with encourage words.
+  - As a First Time Visitor, I want quit the game anytime if I decided to. The game page has a option of going back to home page anytime.
 
-- As a user, I want to save my name and my high scores. The end page gives the user the option of saving their names and score in the local storage when a new high score is achieved.
+  - As a First Time Visitor, images and music are better experience than plain text. The game finishes with a congratulations music auto plays and an images with encourage words.
 
-- As a user, I would like the option to play again, if I found the game is interesting and want to do better in the next round. The end page has a button of playing the game again or go home.
+  - As a First Time Visitor, I need to know where is clickable, and which choice is my mouse on. Moive Quiz choices have a hover over effect, the choice scales bigger, the border changes color and a box shadow appears when the mouse is hovered over.
 
-- As a user, I would like to check the scores leader board. In the home page, there is a button to check the high scores list of top 5.
+  - AS a First Time Visitor, I need to know if my answer is right or wrong. Movie Quiz has implemented that need by visual and sound effect. The choice changes to green color if the answer is correct, and red if the answer is incorrect. A dedicated sound is also assigned to both scenarios.
 
-- As a user, sometimes I could get annoyed by the music/sound so I want to have the option to switch it off anytime. Throughout all pages when there's sound/music, a button is provided to switch it off anytime.
+  - As a First Time Visitor, when I finish the game, I would like to know my final scores. The game automaticly go to the end page when a game is finished and a final score displays.
 
-- As a user, it will be nice to know the developer info. The clickable footer provide this option with the name and social link of the developer.
+  - As a First Time Visitor, I want to save my name and my high scores. The end page gives the user the option of saving their names and score in the local storage when a new high score is achieved.
 
-- The favicon gives a clear indication to the users of what the website is about, and it represent a brand image of the website. And made it easy to spot when the user has other tabs open or bookmark the page.
+  - As a First Time Visitor, I would like the option to play again, if I found the game is interesting and want to do better in the next round. The end page has a button of playing the game again or go home.
+
+  - As a First Time Visitor, I would like to check the scores leader board. In the home page, there is a button to check the high scores list of top 5.
+
+  - As a First Time Visitor, it will be nice to know the developer info. The clickable footer provide this option with the name and social link of the developer.
+
+  - As a First Time Visitor, I want to identify the website easily and if I choose to bookmark the page, it will be visiable in my bookmarks folder. The favicon serves that purpose perfectly.
+
+- **Returning Visitor Goals**
+
+  - As a Returning Visitor, I want to check the leader board to see if there is high scores for me to beat. The high Scores page serves that purpose.
+
+  - As a Returning Visitor, I want to find my last score, the save option serves that purpose well.
 
 ## Validators
 
@@ -131,10 +111,6 @@
 - Footer Social Links
 
   Check all icons are clickable,changes color when hover and linked to relevant pages. Also opens up a new page.
-
-- Music Auto Play
-
-  Music auto play doesn't work when you first visit due to [autoplay policy](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes), but it works when you go back to the home page.
 
 ### Game Page
 
@@ -285,9 +261,41 @@
 
 ## Further Testing
 
-Futher more I have done a testing with Google Devtool light house, the result is shown below:
+- The website was tested on a variety of devices:
 
-![light house](assets/documentation/lighthouse.png)
+  - MacBook Air
+
+  - Dell laptop
+
+  - Sumsung Galaxy tab A10.1
+
+  - Sumsung Galaxy 5
+
+  - Huawei P10
+
+  - Sumsung A125F
+
+  - Iphone 5
+
+- The website was viewed by different browsers:
+
+  - Google Chrome
+
+  - Mozilla Firefox
+
+  - Opera
+
+  - Microsoft Edge
+
+  - Safari
+
+- A large amount of testing was done to ensure that all pages were linking correctly.
+
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+- Futher more I have done a testing with Google Devtool light house, the result is shown below:
+
+  ![light house](assets/documentation/lighthouse.png)
 
 ## Bugs and Issues
 
@@ -296,3 +304,7 @@ Futher more I have done a testing with Google Devtool light house, the result is
 - The home page backgroun music doesn't autoplay for first entering the page and an error shows in console as seen below:
 
   ![error](assets/documentation/error.png)
+
+  I did some research and found out autoplay didn't work due to [autoplay policy](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)
+
+  I fixed this problems by switch the on and off button around, so the user can turn the music on if they wanted to.

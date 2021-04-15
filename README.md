@@ -12,7 +12,8 @@ A live website can be found [here](https://melindazhang2020.github.io/CI-MS2-Mov
 - [Users Experience(UX)](<#users-experience(ux)>)
   - [Project Goals](#project-goals)
   - [Target Audience](#target-audience)
-  - [User Story](#user-story)
+  - [User Stories](#user-stories)
+  - [Design](#design)
   - [Wireframe](#wireframe)
 - [Features](#Features)
   - [Existing Features](#existing-features)
@@ -51,23 +52,57 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
-### **Uers Story**
+### **Uers Stories**
 
-- As a movie lover, I want to find movie related activities, so that it broads up to my entertainments options.
+- **General User Goals**
 
-- As a movie buff, I want to find a quiz, so that I can test my knowledge level about movies.
+  - As a movie lover, I want to find movie related activities, so that it broads up to my entertainments options.
 
-- As a gamer, I want to find interesting games, so that I can spend time enjoying playing it.
+  - As a movie buff, I want to find a quiz, so that I can test my knowledge level about movies.
 
-- As an explorer , I want to explore through games, so that I can found intereting ideas and topics.
+  - As a gamer, I want to find interesting games, so that I can spend time enjoying playing it.
 
-- As a competitive person, I want to find a competitive game, so that I can challenge myself.
+  - As an explorer , I want to explore through games, so that I can found intereting ideas and topics.
 
-- As a music lover, I want to listening to music while I'm answering the questions, so that I get both visual and hearing stimulation.
+  - As a competitive person, I want to find a competitive game, so that I can challenge myself.
 
-- As a goal achiever, I want to save the scores, so that I can drive to go pass that score each time when I play.
+  - As a music lover, I want to listening to music while I'm answering the questions, so that I get both visual and hearing stimulation.
 
-- As a mobile user, I want an application is molibe friendly, so that I can use it on my mobile.
+  - As a goal achiever, I want to save the scores, so that I can drive to go pass that score each time when I play.
+
+  - As a mobile user, I want an application is molibe friendly, so that I can use it on my mobile.
+
+- **First Time Visitor Goals**
+
+  - As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about how to play the game.
+
+  - As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try.
+
+  - As a First Time Visitor, I want to know about the developer infomation and their social media links.
+
+- **Returning Visitor Goals**
+
+  - As a Returning Visitor, I want to find the leader board and beat my last score.
+
+  - As a Returning Visitor, I want to see if there are higher scores saved in the system so I can try to beat it.
+
+### **Design**
+
+- Colour Scheme
+
+  The two main colours used are red and yellow, you can find a copy of the colour palette [here](assets/documentation/MS2-color-palette.pdf)
+
+- Typography
+
+  - Franklin Gothic Medium is the main font used throughout the whole website for main text and buttons, with Arial Narrow, Arial, sans-serif as the fallback font in case of any reason the font isn't being imported into the site correctly. Franklin Gothic is an common font and it suits the scheme and makes the website appealing.
+
+  - The headline font is Oswal by google font with sans-serif as the fallback font. It fits in the feel of the site perfectly.
+
+- Imagery
+
+  - Imagery is very important. The background hero image is designed to grab user's attention and give the users the feeling as if they are in a cinema.
+
+  - The end game illustrations demonstrate to the user how they did, gives immediate feed back, not only appealing but also encouraging.
 
 ### **Wireframes**
 
@@ -127,6 +162,8 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ## **Technologies Used**
 
+### Languages Used
+
 - [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.)
 
   - The language used to give the site its main structure and all necessary features.
@@ -138,6 +175,8 @@ This Movie Quiz is designed to include a wide range of questions about all types
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
   - The language used to implement the site's interactive features, allow the users to be interactive and make actions during their visit.
+
+### Frameworks, Libraries & Programs Used
 
 - [VScode](https://code.visualstudio.com/)
 
@@ -199,9 +238,7 @@ Testing information can be found in a seperate file [testing.md](testing.md)
 
 ## **Deployment**
 
-The project codes have been written in Visual Studio Code and pushed to GitHub using git Bash, to share the live website with others, I deployed my project on GitHub Pages using the following steps:
-
-### **Deployment Steps**
+### **Deploy To GitHub Pages**
 
 1. Logged into Github account.
 
@@ -219,7 +256,7 @@ The project codes have been written in Visual Studio Code and pushed to GitHub u
 
 8. Once clicked, this publishes the project to GitHub Pages and displays the site URL. Click on the URL to view the live site.
 
-### **Making a clone or download zip to run locall**
+### **Making a clone or download zip to run locally**
 
 1. Log into GitHub account.
 
@@ -241,7 +278,7 @@ The project codes have been written in Visual Studio Code and pushed to GitHub u
 
 10. Alternately, click on Download ZIP, unpack locally and open with a local code editor.
 
-### **Forking the repository**
+### **Forking the GitHub Repository**
 
 1. Log into GitHub.
 
