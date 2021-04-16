@@ -26,35 +26,35 @@
 
 - **General User Goals**
 
-  - As a user, I would like to use other senses rather than just sight, it gives me better experience. Movie Quiz uses aduio throughout the site, background music option on the home page, right/wrong answer sound effect on the game page, and congratulation music when the game ends.
+  - As a user, I would like to use other senses rather than just sight, it gives me a better experience. Movie Quiz uses aduio throughout the site, background music option on the home page, right/wrong answer sound effect on the game page, and congratulation music when the game ends.
 
   - As a user, the color contrast is critical to me, I want to be able to read the content on the page. Movie Quiz used yellow over dark red color theme, it's easy to read and also easy on the eyes.
 
-  - As a user, when I play a quiz game, I expect the format of questions are well set up. Movie Quiz game page consist question heading area indicating how far the user is in the game, a progress bar for visual effect, updated scores tells how many points they have made so far.
+  - As a user, when I play a quiz game, I expect the format of questions to be well set up. Movie Quiz game page consists of a question heading area indicating how far the user is in the game, a progress bar for visual effect, and updated scores tells how many points they have made so far.
 
   - As a user, sometimes I could get annoyed by the music/sound so I want to have the option to switch it off anytime. Throughout all pages when there's sound/music, a button is provided to switch it off anytime.
 
-  - As a user, I expect quiz game is a bit challenging. Movie Quiz has a timer installed in the game, it only gives the user 60 seconds to select an answer.
+  - As a user, I expect quiz game to a bit challenging. Movie Quiz has a timer installed in the game that only gives the user 60 seconds to select an answer.
 
-  - As a mobile user, I want to play the game on my mobile. The site is full responsive, can be played on a mobile or a tablet.
+  - As a mobile user, I want to play the game on my mobile. The site is fully responsive and can also be played on a mobile or a tablet.
 
 - **First Time Visitor Goals**
 
-  - As a First Time Visitor, when I enter a website, I want to see a clear visual set up, image and buttons and minimum amount of text on front page. Movie Quiz used a full screen background image and head line and 3 buttons as its main feature on the front page, the visual effect is clear and simple.
+  - As a First Time Visitor, when I enter a website I want to see a clear visual set up, images and buttons and a minimum amount of text on the front page. Movie Quiz used a full screen background image and head line and 3 buttons as its main feature on the front page. The visual effect is clear and simple.
 
-  - As a First Time Visitor, I want quit the game anytime if I decided to. The game page has a option of going back to home page anytime.
+  - As a First Time Visitor, I want to quit the game anytime if I decided to. The game page has a option of going back to the home page anytime.
 
-  - As a First Time Visitor, images and music are better experience than plain text. The game finishes with a congratulations music auto plays and an images with encourage words.
+  - As a First Time Visitor, images and music are a better experience than plain text. The game finishes with a congratulations music that auto plays and an image with encouraging words.
 
-  - As a First Time Visitor, I need to know where is clickable, and which choice is my mouse on. Moive Quiz choices have a hover over effect, the choice scales bigger, the border changes color and a box shadow appears when the mouse is hovered over.
+  - As a First Time Visitor, I need to know where is clickable, and which choice is my mouse on. Moive Quiz choices have a hover over effect, the choice scales bigger, the border changes color and a box shadow appears whenever the mouse is hovered over the choice.
 
-  - AS a First Time Visitor, I need to know if my answer is right or wrong. Movie Quiz has implemented that need by visual and sound effect. The choice changes to green color if the answer is correct, and red if the answer is incorrect. A dedicated sound is also assigned to both scenarios.
+  - As a First Time Visitor, I need to know if my answer is right or wrong. Movie Quiz has implemented that need by visual and sound effect. The choice changes to green color if the answer is correct, and red if the answer is incorrect. A dedicated sound is also assigned to both scenarios.
 
-  - As a First Time Visitor, when I finish the game, I would like to know my final scores. The game automaticly go to the end page when a game is finished and a final score displays.
+  - As a First Time Visitor, when I finish the game, I would like to know my final scores. The game automatically goes to the end page when a game is finished and a final score displays.
 
   - As a First Time Visitor, I want to save my name and my high scores. The end page gives the user the option of saving their names and score in the local storage when a new high score is achieved.
 
-  - As a First Time Visitor, I would like the option to play again, if I found the game is interesting and want to do better in the next round. The end page has a button of playing the game again or go home.
+  - As a First Time Visitor, I would like the option to play again, if I found the game interesting and want to do better in the next round. The end page has a button of playing the game again or go home.
 
   - As a First Time Visitor, I would like to check the scores leader board. In the home page, there is a button to check the high scores list of top 5.
 
@@ -98,11 +98,11 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Navigation Buttons
 
-  Tested all three buttons, make sure it linked correctly and direct to the correct page. Checked the hover effect works when the mouse hover over the button scales and box shadow drops.
+  Tested all three buttons to make sure they are linked correctly and direct to the correct page. Checked the hover effect works when the mouse hovers over, so that the button scales and box shadow drops.
 
 - Game Rules Modal
 
-  Made sure the game rules modal opens and close as expected, and click on the X or anywhere else on the page it closes itself.
+  Made sure the game rules modal opens and closes as expected, and that clicking on the X or anywhere else on the page closes the modal.
 
 - Music On/Off Button
 
@@ -110,7 +110,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Footer Arrow
 
-  Tested the footer arrow is clickable, and it toggles the footer shown and hidden.
+  Tested the footer arrow is clickable, and it toggles the footer between shown and hidden.
 
 - Footer
 
@@ -132,7 +132,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Question Progress Bar
 
-  Checked the question progress bar is updating with each question been answered, and shows up the correct percentage.
+  Checked the question progress bar is updating as each question has been answered, and shows the correct percentage of completed questions.
 
 - Score Title
 
@@ -148,7 +148,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Choices Display
 
-  Checked the choices of each questions are displayed correctly without any errors. And made sure the correct answer is displayed in a random place.
+  Checked the choices of each question are displayed correctly without any errors. And made sure the correct answer is displayed in a random place.
 
 - Timer Display
 
@@ -164,11 +164,11 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Go Home Button
 
-  Made sure the go home button direct the user to the home page.
+  Made sure the go home button directs the user to the home page.
 
 - Right/Wrong Answer indication (color)
 
-  Checked the choice turn to green when the answer is the correct answer and red when the answer is a wrong answer.
+  Checked the choice turns to green when the answer is the correct answer and red when the answer is a wrong answer.
 
 - Right/Wrong Answer indication (sound)
 
@@ -176,7 +176,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - No Repeating Questions in the round
 
-  Double checked there is no repeated question shows up in the same round by playing the game and console.log all 10 questions.
+  Double checked there is no repeated question showing up in the same round by playing the game and console log all 10 questions.
 
 - Move to the next question automaticly
 
@@ -194,7 +194,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Music Auto Play
 
-  Congrats music is automaticly played when the game is finished.
+  Congrats music is automatically played when the game is finished.
 
 - Music On/off Button
 
@@ -224,7 +224,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Play Again Button
 
-  Made sure the play again button direct to the game page and the questions are displayed correctly from the start.
+  Made sure the play again button directs to the game page and the questions are displayed correctly from the start.
 
 - Go Home Button
 
@@ -243,7 +243,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Leader Board Scale When Hovered Over
 
-  Checked each name and scores scale when hovered.
+  Checked each name and scores scale when hovered over.
 
 - Go Home Button
 
@@ -251,7 +251,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 ## Site Responsiveness
 
-- Tested in Google Devtool by switch on the mobile view for different screen size, and by reducing the broswer window sizes.
+- Tested in Google Devtool by switching on the mobile view for different screen sizes, and by reducing the broswer window sizes.
 
 - Tested by opening up the website on different devices.
 
@@ -277,7 +277,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
   - Sumsung Galaxy tab A10.1
 
-  - Sumsung Galaxy 5
+  - Sumsung Galaxy S10
 
   - Huawei P10
 
@@ -301,18 +301,18 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-- Futher more I have done a testing with Google Devtool light house, the result is shown below:
+- Futhermore, I have done testing with Google Devtool light house and the result is shown below:
 
   ![light house](assets/documentation/lighthouse.png)
 
 ## Bugs and Issues
 
-- When tested on Sumsung Galaxy 5, after the user click on an answer the hover effect stays on that choice even after the next question is displayed.
+- When tested on Sumsung Galaxy S10, after the user clicks on an answer the hover effect stays on that choice even after the next question is displayed.
 
-- The home page backgroun music doesn't autoplay for first entering the page and an error shows in console as seen below:
+- The home page background music doesn't autoplay on first entering the page and an error shows in console as seen below:
 
   ![error](assets/documentation/error.png)
 
   I did some research and found out autoplay didn't work due to [autoplay policy](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)
 
-  I fixed this problems by switch the on and off button around, so the user can turn the music on if they wanted to.
+  I fixed this problem by switching the on and off button around, so the user can turn the music on if they wanted to.

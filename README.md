@@ -28,17 +28,17 @@ A live website can be found [here](https://melindazhang2020.github.io/CI-MS2-Mov
 
 ## **About**
 
-Who doesn't like a good old quiz?! Quiz is a fun way to spend your time when you are bored, you are not only entertained but also gained knowledge along the way!
+Who doesn't like a good old quiz?! Quizzes are a fun way to spend your time when you are bored, you are not only entertained but also gain knowledge along the way!
 
-Do you think you love watching movie and have watched a lot of movies in the past, that you consider yourself as a movie buff? Take a few minutes complete the quiz, you will find out if that is true!
+Do you think you love watching movies and have watched a lot of movies in the past, that you consider yourself a movie buff? Take a few minutes complete the quiz, you will find out if that is true!
 
-This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of, it's made of 125 questions, each game has 10 questions, each correct question gains 10 points, so you can keep playing and aim for that 100 points each time! Have fun!
+This Movie Quiz is designed to include a wide range of questions about all types of movies. From the old to the new, from cartoon to fantasy, any movie you can think of. It's made of 125 questions, each game has 10 questions, each correct question gains 10 points. So you can keep playing and aim for that 100 points each time! Have fun!
 
 ## **Users Experience (UX)**
 
 ### **Project Goals**
 
-- The primary goal of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure the knowledge in films.
+- The primary goal of this project is to set up a form of game or mind sport for the players that may become a brief assessment for the user to measure their knowledge in films.
 
 - The secondary goal is to help the user get their thinking mind on. According to studies, brain games may help sharpen certain thinking skills that tend to wane with age, such as processing speed, planning skills, reaction time, decision making, and short-term memory.
 
@@ -46,9 +46,9 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - Considering the format of the quiz for this project, as there won't be pictures displayed in the question, our target audience will be over 16 year old.
 
-- In today's world, everything is international, and that includes the film industry, most of the popular movies are known by majority people of the wrold, considering that, our target audience's location is global.
+- In today's world, everything is international, and that includes the film industry. Most of the popular movies are known by the majority of people of the world. Considering that, our target audience's location is global.
 
-- As there's no evidence shows that man loves watching moive more than woman or vice versa (even though I hear a lot from my female friends that their men watches the same movie over and over!), our target audience will be both genders.
+- As there's no evidence to show that men love watching moives more than women or vice versa (even though I hear a lot from my female friends that their men watch the same movie over and over!), our target audience will be both genders.
 
 - The best way to promote our quiz game is through online advertisements and social media shares.
 
@@ -56,21 +56,21 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - **General User Goals**
 
-  - As a movie lover, I want to find movie related activities, so that it broads up to my entertainments options.
+  - As a movie lover, I want to find movie related activities, so that it broadens my entertainments options.
 
   - As a movie buff, I want to find a quiz, so that I can test my knowledge level about movies.
 
-  - As a gamer, I want to find interesting games, so that I can spend time enjoying playing it.
+  - As a gamer, I want to find interesting games, so that I can spend time enjoying playing them.
 
-  - As an explorer , I want to explore through games, so that I can found intereting ideas and topics.
+  - As an explorer , I want to explore through games, so that I can find interesting ideas and topics.
 
   - As a competitive person, I want to find a competitive game, so that I can challenge myself.
 
-  - As a music lover, I want to listening to music while I'm answering the questions, so that I get both visual and hearing stimulation.
+  - As a music lover, I want to listen to music while I'm answering the questions, so that I get both visual and audio stimulation.
 
-  - As a goal achiever, I want to save the scores, so that I can drive to go pass that score each time when I play.
+  - As a goal achiever, I want to save the scores, so that I can drive to go past that score each time when I play.
 
-  - As a mobile user, I want an application is molibe friendly, so that I can use it on my mobile.
+  - As a mobile user, I want an application that is mobile friendly, so that I can use it on my mobile.
 
 - **First Time Visitor Goals**
 
@@ -78,13 +78,13 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
   - As a First Time Visitor, I want to be able to easily navigate throughout the site to give the game a try.
 
-  - As a First Time Visitor, I want to know about the developer infomation and their social media links.
+  - As a First Time Visitor, I want to know about the developer information and their social media links.
 
 - **Returning Visitor Goals**
 
   - As a Returning Visitor, I want to find the leader board and beat my last score.
 
-  - As a Returning Visitor, I want to see if there are higher scores saved in the system so I can try to beat it.
+  - As a Returning Visitor, I want to see if there is a higher score saved in the system so I can try to beat it.
 
 ### **Design**
 
@@ -100,7 +100,7 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - **Imagery**
 
-  - Imagery is very important. The background hero image is designed to grab user's attention and give the users the feeling as if they are in a cinema.
+  - Imagery is very important. The background hero image is designed to grab the user's attention and give the users the feeling as if they are in a cinema.
 
   - The end game illustrations demonstrate to the user how they did, gives immediate feed back, not only appealing but also encouraging.
 
@@ -116,35 +116,35 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 ### **Existing Features**
 
-- Homepage navigation - consists three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
+- Homepage navigation - consists of three main buttons which allows users to read the rules of the game, check on the highest Score the other players did so far and start the game when they are ready.
 
 - Music on and off switch - which allows the users to switch on the music if they would like to.
 
 - clickable footer contains copyright and developer social media links.
 
-- Progress text - shows how many questiones the user have finished on and how many questions left in the game.
+- Progress text - shows how many questions the user has finished so far and how many questions are left in the game.
 
-- Progress bar - indicates the percentage of the questions have been done out the game at this particular moment.
+- Progress bar - indicates the percentage of the questions that have been done in the game at this particular moment.
 
-- Score updates - tells the user how many points the have gain so far in the game.
+- Score updates - tells the user how many points they have gained so far in the game.
 
 - Display question section - allow the users to see the displayed question and participate.
 
 - Multiple-choice section - gives the users four choices they can choose from.
 
-- Right(green) or Wrong answer(red) - indicate the users if they have selected the right or wrong answer.
+- Right(green) or Wrong answer(red) - indicates to the users if they have selected the right or wrong answer.
 
 - Right/wrong answer audio gives the users the 2D user experience.
 
 - Options to switch off the sound effect and go back to the home page at any stage of the game.
 
-- Automaticly direct the user to the end page when the game is finished and shows the final score.
+- Automatically directs the user to the end page when the game is finished and shows the final score.
 
-- Displaying an end image and audio depending on the score achieved.
+- Displays an end image and audio depending on the score achieved.
 
 - A mute music button is also avaliable in the end page.
 
-- End page navigation - consist with three main buttons which allows the users to save their name and score, play again or go back to the homepage.
+- End page navigation - consists of three main buttons which allows the users to save their name and score, play again or go back to the homepage.
 
 - High Score indication bar - tells the users how many points in total they have gained.
 
@@ -156,9 +156,9 @@ This Movie Quiz is designed to include a wide range of questions about all types
 
 - Displaying relative images in each questions to enhance users visual experience.
 
-- Playing different audio for different score scenarios.
+- Playing different audio for different final score scenarios.
 
-- Only one sound button need to be clicked throughout all pages.
+- Only one sound button needed to be clicked throughout all pages.
 
 ## **Technologies Used**
 
@@ -342,7 +342,7 @@ Throughout the process of doing this project I have done a lot of searching and 
 
 I would like to thank:
 
-- My mentor Antonio Rodriguez for his encouragement and patience when my frustration kiched in at the start of this project. Thanks to his guidence and tips, I have gotten over the dip and made it to the end.
+- My mentor Antonio Rodriguez for his encouragement and patience when my frustration kicked in at the start of this project. Thanks to his guidence and tips, I have gotten over the dip and made it to the end.
 
 - Help and support from fellow students in the Slack community.
 
