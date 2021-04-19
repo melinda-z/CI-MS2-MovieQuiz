@@ -98,7 +98,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Navigation Buttons
 
-  Tested all three buttons to make sure they are linked correctly and direct to the correct page. Checked the hover effect works when the mouse hovers over, so that the button scales and box shadow drops.
+  Tested all three buttons to make sure they are linked correctly and direct to the correct page. Checked the hover effect works when the mouse hovers over, so that the buttons scale bigger in size and box shadow drops.
 
 - Game Rules Modal
 
@@ -243,7 +243,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 - Leader Board Scale When Hovered Over
 
-  Checked each name and scores scale when hovered over.
+  Checked each name and scores scale bigger in size when hovered over.
 
 - Go Home Button
 
