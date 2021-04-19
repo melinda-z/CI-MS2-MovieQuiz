@@ -307,8 +307,6 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
 
 ## Bugs and Issues
 
-- When tested on Sumsung Galaxy S10, after the user clicks on an answer the hover effect stays on that choice even after the next question is displayed.
-
 - The home page background music doesn't autoplay on first entering the page and an error shows in console as seen below:
 
   ![error](assets/documentation/error.png)
@@ -316,3 +314,7 @@ The W3C Markup Validator and The W3C CSS Validator were used to validate every p
   I did some research and found out autoplay didn't work due to [autoplay policy](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)
 
   I fixed this problem by switching the on and off button around, so the user can turn the music on if they wanted to.
+
+  - When tested on Sumsung Galaxy S10, after the user clicks on an answer the hover effect stays on that choice even after the next question is displayed.
+
+  This issue remained unfixed for further researching and learning.
