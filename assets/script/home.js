@@ -11,7 +11,9 @@ const footerSection = document.getElementById("footer");
 const mainContainer = document.getElementById("main");
 
 // FUNCTIONS
+
 // open the modal when the user clicks on the button
+// idea from w3school https://www.w3schools.com/howto/howto_css_modals.asp
 openModal = () => {
   modal.style.display = "block";
 };

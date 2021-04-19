@@ -10,6 +10,7 @@ body {
 #question {
   padding: 2rem 2rem 2rem 0;
 }
+
 /* ChOICES */
 
 .choice-container {
@@ -72,7 +73,8 @@ body {
   width: 0%;
 }
 
-/* LOADER * / /*REF W3SCHOOL*/
+/* LOADER * / /* REF W3SCHOOL 
+https://www.w3schools.com/howto/howto_css_loader.asp*/
 
 #loader {
   border: 12px solid #c9c0c0;

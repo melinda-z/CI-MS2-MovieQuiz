@@ -3,15 +3,17 @@ body {
   background-color: #6a040f;
 }
 
+#final-score {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+/* Form contains user input and a submit button*/
+
 form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-#final-score {
-  font-size: 3rem;
-  margin-bottom: 1rem;
 }
 
 /* User input field */
@@ -48,6 +50,8 @@ form {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #6a040f;
 }
+
+/* Music on/off button */
 #musicOn,
 #musicOff {
   color: #ffd60a;

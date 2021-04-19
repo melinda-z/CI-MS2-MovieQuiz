@@ -34,6 +34,9 @@ fetch("https://opentdb.com/api.php?amount=10&category=11&type=multiple")
     return res.json();
   })
   // load questions
+  //  Used James Q Quick quiz video as a reference but approached with a different format
+  // https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
+
   .then((loadedQuestions) => {
     questions = loadedQuestions.results.map((loadedQuestion) => {
       // set the question format

@@ -45,6 +45,7 @@ allowUserSave = () => {
   saveHighScoreButton.disabled = !username.value;
 };
 //  Codes of saveHighScore function are copied from James Q quick video
+// https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
 saveHighScore = (event) => {
   event.preventDefault();
   // set the score to an object format

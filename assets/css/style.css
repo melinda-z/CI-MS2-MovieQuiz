@@ -1,3 +1,4 @@
+/* Google Font link */
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 * {
@@ -76,7 +77,8 @@ h1 {
   transform: none;
 }
 
-/* Modal background */ /* idea from W3School */
+/* Modal background */
+/* idea from W3School https://www.w3schools.com/howto/howto_css_modals.asp*/
 .modal {
   display: none;
   position: fixed;
@@ -181,7 +183,7 @@ footer {
   font-size: 1.5rem;
   position: absolute;
   top: 93%;
-  /* idea https://codepen.io/lloopp/pen/XWJKMNr */
+  /* idea from codepen https://codepen.io/lloopp/pen/XWJKMNr */
   animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
   cursor: pointer;
 }
